@@ -1,0 +1,8 @@
+#!/bin/bash
+
+source activate DLC-CPU
+python FigS1-1-Predict_dlc_batch_with_existing_model.py
+conda deactivate
+
+source activate AN
+python FigS1-2-Process_dlc_PER_into_extenLength_PERevt.py

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+##Note: it will take around two days for go through from training classifer to prediction in our workstation with 62GB RAM and 12 cores ubuntu system.
+
+## Make sure the python script run in this env. 
+source activate AN
+
+python 00_trials_for_paper.py
+python 01_preprocessing_of_df3d_data.py
+python 02_train_beh_classification_model.py
+

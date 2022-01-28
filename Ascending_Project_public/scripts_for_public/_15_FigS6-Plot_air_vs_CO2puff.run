@@ -1,0 +1,4 @@
+#!/bin/bash
+
+source activate AN
+python FigS6-CO2vsAir_dFFcomparison.py

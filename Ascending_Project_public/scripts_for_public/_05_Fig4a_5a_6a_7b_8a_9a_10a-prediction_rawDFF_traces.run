@@ -1,0 +1,6 @@
+#!/bin/bash
+
+## Make sure the python script run in this env. 
+source activate AN
+
+Rscript Fig4a_5a_6a_7b_8a_9a_10a-traces.R

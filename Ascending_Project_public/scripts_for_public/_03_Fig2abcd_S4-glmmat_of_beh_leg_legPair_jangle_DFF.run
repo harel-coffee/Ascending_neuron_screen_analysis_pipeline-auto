@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+
+## Make sure the script run in this env. 
+source activate AN
+
+Rscript Fig2a-overview_matrices_jangle.R
+Rscript Fig2b-overview_matrices_leg.R
+Rscript Fig2c-overview_matrices_legPair.R
+Rscript Fig2d-overview_matrices_beh.R
+python Fig2-Plot_GLM.py

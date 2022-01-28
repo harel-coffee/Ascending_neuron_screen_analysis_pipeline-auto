@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source activate AN
+python Fig6c_7e-DFFevt_detection.py
+python Fig6c_7e-DFFevt_analysis_plot.py
