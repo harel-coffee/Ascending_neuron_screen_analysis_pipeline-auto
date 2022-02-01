@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde)
 
-This repository is for generating the figures published in the paper of **Ascending neurons convey high-level behavioral-state signals to multimodal sensory and action selection centersin the Drosophila brain**.
+This repository is for generating the figures published in the paper of [**Ascending neurons convey high-level behavioral-state signals to multimodal sensory and action selection centers in the Drosophila brain**]().
  
 ## Content
 - [Installation](#installation)
