@@ -6,6 +6,7 @@ This repository is for generating the figures published in the paper of **Ascend
  
 ## Content
 - [Installation](#installation)
+- [Download the preprocessed experimental data](#Download-the-preprocessed-experimental-data)
 - [Reproducing the figures](#reproducing-the-figures)
  
 
@@ -94,14 +95,16 @@ source activate AN
 
 
 
-## Downlaod the preprocessed data of experiments.
+## Download the preprocessed experimental data
 Download the data into the corresponding folders as structured here from [Harvard Dataverse]():
 
  
 ## Reproducing the figures
 
 **Note:** before running the following scripts, make sure that the python environment and R package are all installed (see the installation guide)
+In the folder ```/scripts_for_public```, you can generate the plots of figures by following the order of ```_xx.run``` scripts to start the analysis from preprocessed data to the plots presented in the indicated figure panels. The details are shown below:
 
+- 
 
 
 
