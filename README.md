@@ -15,7 +15,14 @@ This repository is for generating the figures published in the paper of **Ascend
 ## Installation
 
 First, to be able to execute the codes and NeLy homemade packages, please install the python environment AN as guided below:
-
+- Change directory to your Ascending_neuron_screen_analysis_pipeline folder:
+```bash
+$ cd ../../Ascending_neuron_screen_analysis_pipeline
+```
+```bash
+-Install the python environment with specified package in AN_env_public.yml
+$ conda env create -f AN_env_public.yml
+```
 
 Second, NeLy homemade packages of deepfly, df3dPstProcess, flydf, utils2p, and additionally CPU version of deeplabcut of this paper have to be installed as guided below:
 
