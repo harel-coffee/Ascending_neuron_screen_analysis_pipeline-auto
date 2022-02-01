@@ -24,9 +24,9 @@ $ cd ../../Ascending_neuron_screen_analysis_pipeline
 $ conda env create -f AN_env_public.yml
 ```
 
-Second, NeLy homemade packages of deepfly, df3dPostProcess, flydf, utils2p in AN environment as guided below:
+Second, isntall NeLy homemade packages of deepfly, df3dPostProcess, flydf, utils2p in AN environment as guided below:
 
-- Switch to the AN environemnt:
+- Activate to the AN environemnt:
 ```bash
 $ source activate AN
 ```
