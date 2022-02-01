@@ -55,18 +55,6 @@ cd ../../DeepLabCut/conda-environments
 conda env create -f DLC-CPU.yaml
 ```
 
-Now, the dependencies of ```AN``` environment and DeepLabCut are installed.
-If you need to use DeepLabCut independently anytime, please activate the environment manually by:
-```bash
-source activate DLC-CPU
-```
-
-If you need to use AN independently anytime, activate ```AN``` environment manually by:
-```bash
-source activate AN
-```
-
-
 **4. Install R and the packages**
 - Install R system:
 ```bash
@@ -92,11 +80,30 @@ install.packages("dplyr")
 install.packages("reshape2")
 ```
 
+**Optional**
+Now, the dependencies of ```AN``` environment, DeepLabCut, and R are installed.
+If you need to use DeepLabCut independently anytime, please activate the environment manually by:
+```bash
+source activate DLC-CPU
+```
+
+If you need to use AN independently anytime, activate ```AN``` environment manually by:
+```bash
+source activate AN
+```
+
+
+
+## Downlaod the preprocessed data of experiments.
+Download the data into the corresponding folders as structured here from [Harvard Dataverse]():
 
  
 ## Reproducing the figures
 
-**Note:** before running the following scripts, be sure that the python environment and R package are installed (see the installation guide)
+**Note:** before running the following scripts, make sure that the python environment and R package are all installed (see the installation guide)
+
+
+
 
 
 
