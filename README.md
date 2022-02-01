@@ -19,8 +19,8 @@ First, to be able to execute the codes and NeLy homemade packages, please instal
 ```bash
 $ cd ../../Ascending_neuron_screen_analysis_pipeline
 ```
-```bash
 -Install the python environment with specified package in AN_env_public.yml
+```bash
 $ conda env create -f AN_env_public.yml
 ```
 
