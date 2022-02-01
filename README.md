@@ -15,11 +15,11 @@ This repository is for generating the figures published in the paper of **Ascend
 ## Installation
 
 First, to be able to execute the codes and NeLy homemade packages, please install the python environment AN as guided below:
-- Change directory to your Ascending_neuron_screen_analysis_pipeline folder:
+- Change directory to your ```bash Ascending_neuron_screen_analysis_pipeline``` location:
 ```bash
 $ cd ../../Ascending_neuron_screen_analysis_pipeline
 ```
--Install the python environment with specified package in AN_env_public.yml
+- Install the python environment with specified package in AN_env_public.yml
 ```bash
 $ conda env create -f AN_env_public.yml
 ```
