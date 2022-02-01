@@ -20,7 +20,7 @@ $ cd ../../Ascending_neuron_screen_analysis_pipeline
 $ conda env create -f AN_env_public.yml
 ```
  
-**2. Install [NeLy](https://github.com/NeLy-EPFL)'s homemade packages of deepfly, df3dPostProcess, flydf, utils2p in** ```AN``` **environment as guided below:**
+**2. Install [NeLy](https://github.com/NeLy-EPFL)'s DeepFly3D and df3dPostProcess packages in** ```AN``` **environment as guided below:**
 
 - Activate to the AN environemnt:
 ```bash
@@ -31,7 +31,7 @@ or if ```source``` doesn't work, try:
 $ conda activate AN
 ```
 
-- Dowload and install deepfly3d:
+- Dowload and install DeepFly3D:
 ```bash
 $ pip install git+https://github.com/NeLy-EPFL/DeepFly3D.git@974f839e224a41e7c5774e2effddf8ff763da88a#egg=deepfly
 ```
@@ -41,20 +41,6 @@ $ pip install git+https://github.com/NeLy-EPFL/DeepFly3D.git@974f839e224a41e7c57
 $ pip install git+https://github.com/NeLy-EPFL/df3dPostProcessing.git@b6be9b0587db55023bb41858c6b49d4e11a98e9f#egg=df3dPostProcessing
 ```
 
-- Dowload and install flydf:
-```bash
-$ pip install git+https://github.com/NeLy-EPFL/flydf.git@5d8dc3979b565c87809c75022208623310d4ca82#egg=flydf
-```
-
-- Dowload and install utils2p:
-```bash
-$ pip install git+https://github.com/NeLy-EPFL/utils2p.git@0f155bd3357d3fdf82e1e20605a6948d2a47fd75#egg=utils2p
-```
-- Leave the environment:
-```bash
-$ conda deactivate
-```
- 
 **3. Install CPU version of DeepLabCut used in this paper in its own environment (make sure leave** ```AN``` **environment by** ```conda deactivate``` **before the following steps)**
 - Downlaod and install DeepLabCut:
 ```bash
@@ -70,19 +56,51 @@ conda env create -f DLC-CPU.yaml
 ```
 
 Now, the dependencies of ```AN``` environment and DeepLabCut are installed.
-If you need to use DeepLabCut independently, please activate the environment manually by:
+If you need to use DeepLabCut independently anytime, please activate the environment manually by:
 ```bash
 source activate DLC-CPU
 ```
 
-If you need to use AN independently, please activate ```AN``` environment manually by:
+If you need to use AN independently anytime, activate ```AN``` environment manually by:
 ```bash
 source activate AN
 ```
+
+
+**4. Install R and the packages**
+- Install R system:
+```bash
+sudo apt-get update 
+sudo apt-get install r-base
+```
+- Install r-base-dev package to be able to compile R packages:
+```bash
+sudo apt-get install r-base-dev
+```
+
+- Launch R to install packages by entering ```R``` in the terminal for installing the following packages:
+```bash
+R
+```
+- Install R packages used in this paper in R:
+```bash
+install.packages("ggpmisc")
+install.packages("ggplot2")
+install.packages("tidyverse")
+install.packages("tidyr")
+install.packages("dplyr")
+install.packages("reshape2")
+```
+
+
  
 ## Reproducing the figures
 
-**Note:** before running the following scripts, please be sure to the python environment and R package are installed (see the installation guide)
+**Note:** before running the following scripts, be sure that the python environment and R package are installed (see the installation guide)
+
+
+
+
 
 
 
