@@ -38,6 +38,8 @@ $ cd ../../DeepLabCut/conda-environments
 ```bash
 $ conda env create -f DLC-CPU.yaml
 ```
+And DeepLabcut is intalled and ready to use.
+
 
 **3. Install R and the packages**
 We use R 3.6.1 to develop some part of anaylsis pipeline, you can find more information about R [here](https://stat.ethz.ch/pipermail/r-announce/2019/000643.html).
@@ -75,6 +77,8 @@ If you need to use DeepLabCut independently anytime, remember activate the envir
 $ source activate DLC-CPU
 $ python name.py
 ```
+
+
 
 If ```source``` doesn't work, try using ```conda``` instead.
 
