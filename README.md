@@ -66,15 +66,17 @@ $ R
 Now, the dependencies of ```AN``` environment, DeepLabCut, and R are installed.
 If you need to use AN independently anytime to check python script seperately, remeber activate ```AN``` environment manually before running the script by:
 ```bash
-source activate AN
+$ source activate AN
 $ python name.py
 ```
 
 If you need to use DeepLabCut independently anytime, remember activate the environment manually before running the script by:
 ```bash
-source activate DLC-CPU
+$ source activate DLC-CPU
 $ python name.py
 ```
+
+If ```source``` doesn't work, try using ```conda``` instead.
 
 There is no environment for ```R```. 
 To run the R script in the terminal independently:
@@ -125,10 +127,26 @@ Ascending_Project_public
  
 ## Reproducing the figures
 
-**Note:** before running the following scripts, make sure that the python environment and R package are all installed (see the installation guide)
-In the folder ```/scripts_for_public```, you can generate the plots of figures by following the order of ```_xx.run``` scripts to start the analysis from preprocessed data to the plots presented in the indicated figure panels. The details are shown below:
+**Note:** before running the following scripts, make sure python environment and R packages are all installed (see the installation guide)
+In the folder ```/scripts_for_public```, you can generate the plots of figures by following the order depecited in the diagram to start the analysis from preprocessed data to the plots presented in the indicated figure panels. The details are shown below:
 
-- 
+- Figures from dataset 00_: 
+###FigS1: Semi-automated detection of proboscis extensions.
+
+- Figures from dataset 00_, 01_ and 03_: Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a: Prediction of neural activity; Fig7c: Prediction of neural activity difference between left and right neurons from turning.
+- Figures from dataset 00_, 01_ and 03_: Fig7a: Explained variance matrix by turning.
+- Figures from dataset 00_, 01_ and 03_: Fig10b, Fig10c: Prediction of neural activity from convoluted PE.
+
+- Figures from dataset 03_: FigS2: Joint angle and behavior covariance matrix.
+- Figures from dataset 03_: FigS3: Behavioral event-based average enural activity. 
+- Figures from dataset 03_: Fig4b, Fig5b, Fig6b, Fig7b, Fig8b, Fig9b: Behavioral event-based average enural activity. 
+- Figures from dataset 03_: Fig6c, Fig7e: Neural activity-based ball rotation.
+- Figures from dataset 03_: FigS5: ANs from SS36112 likely specifically respond to puff stimulation rather than backward walking.
+
+- Figures from dataset 04_
+- Figures from dataset 05_
+- Figures from dataset 06_
+- Figures from dataset 07_
 
 
 
