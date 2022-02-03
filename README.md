@@ -86,15 +86,16 @@ Rscript name.R
 
 ## Download the preprocessed experimental data
 Download the data into the corresponding folders as structured here from [Harvard Dataverse]( https://doi.org/10.7910/DVN/09VNMG):
-Download the content from Harveard dataverse and make sure the location of data content inside each numbered folder are as below:
+Download the content from Harvard dataverse and make sure the location of data content inside each numbered folder are as below:
 
 ```bash
+Ascending_Project_public
 ├── 00_behavior_data_preprocess
 │   ├── CO2puff_regressors
 │   ├── df3dResults_ballRot_captureMeta
-│   ├── PE_regressors
+│   └── PE_regressors
 ├── 01_behavior_annotation_for_behavior_classifier
-│   ├── behaviour_annotations.csv
+│   └── behaviour_annotations.csv
 ├── 03_general_2P_exp
 │   ├── MAN
 │   ├── R15E08
@@ -106,22 +107,21 @@ Download the content from Harveard dataverse and make sure the location of data 
 ├── 04_mcfo_traced_singleAN_exp
 │   ├── MCFO
 │   ├── VFB
-│   ├── VNC
+│   └── VNC
 ├── 05_offBall_onBall_2P_exp
 │   ├── SS38631
-│   ├── SS51017
+│   └── SS51017
 ├── 06_SS36112-air_vs_co2_puff
-│   ├── SS36112
+│   └── SS36112
 ├── 07_SS31232-PE_exp
-│   ├── SS31232
+│   └── SS31232
 ├── DLC_model_for_labelling_proboscis
 │   ├── config.yaml
 │   ├── dlc-models
 │   ├── evaluation-results
 │   ├── labeled-data
 │   ├── training-datasets
-│   ├── videos
-│
+│   └── videos
 ```
  
 ## Reproducing the figures
