@@ -77,7 +77,7 @@ python name.py
 ```
 
 There is no environment for ```R```. 
-To run the script of R:
+To run the R script in the terminal independently:
 ```bash
 Rscript name.R
 ```
@@ -85,8 +85,7 @@ Rscript name.R
 
 
 ## Download the preprocessed experimental data
-Download the data into the corresponding folders as structured here from [Harvard Dataverse]( https://doi.org/10.7910/DVN/09VNMG):
-Download the content from Harvard dataverse and make sure the location of data content inside each numbered folder are as below:
+Download the content from [Harvard dataverse]() and make sure the location of data content inside each numbered folder are as below:
 
 ```bash
 Ascending_Project_public
