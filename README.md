@@ -3,6 +3,8 @@
 [![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde)
 
 This repository is for generating the figures published in the paper-- [**Ascending neurons convey high-level behavioral-state signals to multimodal sensory and action selection centers in the Drosophila brain**]().
+
+This pipeline is made and run in Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-76-generic x86_64). 
  
 ## Content
 - [Installation](#installation)
@@ -11,7 +13,7 @@ This repository is for generating the figures published in the paper-- [**Ascend
  
 
 ## Installation
-**1. To be able to execute the codes and NeLy homemade packages, install the python environment** ```AN``` **as guided below:**
+**1. Install the python environment** ```AN``` ** to be able to run ```.py``` scripts as guided below:**
 - Change directory to your ```/Ascending_neuron_screen_analysis_pipeline``` where ```AN_env_public.yml``` locates by:
 ```bash
 $ cd ../../Ascending_neuron_screen_analysis_pipeline
@@ -21,28 +23,9 @@ $ cd ../../Ascending_neuron_screen_analysis_pipeline
 $ conda env create -f AN_env_public.yml
 ```
  
-**2. Install [NeLy](https://github.com/NeLy-EPFL)'s DeepFly3D and df3dPostProcess packages in** ```AN``` **environment as guided below:**
 
-- Activate to the AN environemnt:
-```bash
-$ source activate AN
-```
-or if ```source``` doesn't work, try:
-```bash
-$ conda activate AN
-```
 
-- Dowload and install DeepFly3D:
-```bash
-$ pip install git+https://github.com/NeLy-EPFL/DeepFly3D.git@974f839e224a41e7c5774e2effddf8ff763da88a#egg=deepfly
-```
-
-- Dowload and install df3dPostProcess:
-```bash
-$ pip install git+https://github.com/NeLy-EPFL/df3dPostProcessing.git@b6be9b0587db55023bb41858c6b49d4e11a98e9f#egg=df3dPostProcessing
-```
-
-**3. Install CPU version of DeepLabCut used in this paper in its own environment (make sure leave** ```AN``` **environment by** ```conda deactivate``` **before the following steps)**
+**2. Install DeepLabCut of CPU version used in this paper in its own environment (make sure leave** ```AN``` **environment by** ```conda deactivate``` **before the following steps)**
 - Downlaod and install DeepLabCut:
 ```bash
 git clone git+https://github.com/DeepLabCut/DeepLabCut.git@413ae5e2c410fb9da3da26c333b6a9b87ab6c38f#egg=deeplabcut
@@ -56,15 +39,13 @@ cd ../../DeepLabCut/conda-environments
 conda env create -f DLC-CPU.yaml
 ```
 
-**4. Install R and the packages**
-- Install R system:
+**3. Install R and the packages**
+We use R 3.6.1 to develop some part of anaylsis pipeline, you can find more information about R [here](https://stat.ethz.ch/pipermail/r-announce/2019/000643.html).
+
+- Install R version 3.6.1 (2019-07-05) and the r-base-dev package to be able to compile R packages:
 ```bash
 sudo apt-get update 
-sudo apt-get install r-base
-```
-- Install r-base-dev package to be able to compile R packages:
-```bash
-sudo apt-get install r-base-dev
+sudo apt-get install r-base-dev=3.6.1
 ```
 
 - Launch R to install packages by entering ```R``` in the terminal for installing the following packages:
@@ -83,21 +64,65 @@ install.packages("reshape2")
 
 **Optional**
 Now, the dependencies of ```AN``` environment, DeepLabCut, and R are installed.
-If you need to use DeepLabCut independently anytime, please activate the environment manually by:
-```bash
-source activate DLC-CPU
-```
-
-If you need to use AN independently anytime, activate ```AN``` environment manually by:
+If you need to use AN independently anytime to check python script seperately, remeber activate ```AN``` environment manually before running the script by:
 ```bash
 source activate AN
+python name.py
+```
+
+If you need to use DeepLabCut independently anytime, remember activate the environment manually before running the script by:
+```bash
+source activate DLC-CPU
+python name.py
+```
+
+There is no environment for ```R```. 
+To run the script of R:
+```bash
+Rscript name.R
 ```
 
 
 
 ## Download the preprocessed experimental data
 Download the data into the corresponding folders as structured here from [Harvard Dataverse]( https://doi.org/10.7910/DVN/09VNMG):
+Download the content from Harveard dataverse and make sure the location of data content inside each numbered folder are as below:
 
+```bash
+├── 00_behavior_data_preprocess
+│   ├── CO2puff_regressors
+│   ├── df3dResults_ballRot_captureMeta
+│   ├── PE_regressors
+├── 01_behavior_annotation_for_behavior_classifier
+│   ├── behaviour_annotations.csv
+├── 03_general_2P_exp
+│   ├── MAN
+│   ├── R15E08
+│   ├── R30A08
+.   .   ...
+.   .   ...
+.   .   ...
+│   ├── SS52147
+├── 04_mcfo_traced_singleAN_exp
+│   ├── MCFO
+│   ├── VFB
+│   ├── VNC
+├── 05_offBall_onBall_2P_exp
+│   ├── SS38631
+│   ├── SS51017
+├── 06_SS36112-air_vs_co2_puff
+│   ├── SS36112
+├── 07_SS31232-PE_exp
+│   ├── SS31232
+├── DLC_model_for_labelling_proboscis
+│   ├── config.yaml
+│   ├── dlc-models
+│   ├── evaluation-results
+│   ├── labeled-data
+│   ├── training-datasets
+│   ├── videos
+│
+```
  
 ## Reproducing the figures
 
