@@ -53,7 +53,7 @@ $ sudo apt-get install r-base-dev=3.6.1
 $ R
 ```
 - Install R packages used in this paper in R:
-```bash
+```R
 > install.packages("ggpmisc")
 > install.packages("ggplot2")
 > install.packages("tidyverse")
