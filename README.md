@@ -132,7 +132,7 @@ In the folder ```/scripts_for_public```, you can generate the plots of figures b
 
 **Content**
 - [Figures from dataset 00_](#Figures-from-dataset-00_)
-- [Figures from dataset 00_, 01_ and 03_](#Figures-from-dataset-00_,-01_-and-03_)
+- [Figures from dataset 00_, 01_ and 03_](#Figures-from-dataset-00_-01_-and-03_)
 - [Figures from dataset 03_](#Figures-from-dataset-03_)
 
 
