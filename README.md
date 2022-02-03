@@ -136,7 +136,7 @@ In the folder ```/scripts_for_public```, you can generate the plots of figures b
 
 **Content**
 - [FigS1](#Figures-from-dataset-00_)
-- [Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a](#Figures-from-dataset-00_-01_-and-03_)
+- [Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a](#Figures-from-dataset-00_-01_-and-03_), [Fig7c](#Figures-from-dataset-00_-01_-and-03_)
 - [Fig7a](#Figures-from-dataset-00_-01_-and-03_)
 - [Fig10b_right, Fig10c](#Figures-from-dataset-00_-01_-and-03_)
 - [FigS2](#Figures-from-dataset-03_)
@@ -154,7 +154,7 @@ In the folder ```/scripts_for_public```, you can generate the plots of figures b
 - **FigS1**: Semi-automated detection of proboscis extensions.
 
 ### Figures from dataset 00_, 01_ and 03_: 
-- **Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a**: Prediction of neural activity; Fig7c: Prediction of neural activity difference between left and right neurons from turning.
+- **Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a**: Prediction of neural activity; **Fig7c**: Prediction of neural activity difference between left and right neurons from turning.
 - **Fig7a**: Explained variance matrix by turning.
 - **Fig10b_right, Fig10c**: Prediction of neural activity from convoluted PE.
 
