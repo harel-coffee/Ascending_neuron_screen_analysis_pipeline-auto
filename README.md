@@ -28,15 +28,15 @@ $ conda env create -f AN_env_public.yml
 **2. Install DeepLabCut of CPU version used in this paper in its own environment (make sure leave** ```AN``` **environment by** ```conda deactivate``` **before the following steps)**
 - Downlaod and install DeepLabCut:
 ```bash
-git clone git+https://github.com/DeepLabCut/DeepLabCut.git@413ae5e2c410fb9da3da26c333b6a9b87ab6c38f#egg=deeplabcut
+$ git clone git+https://github.com/DeepLabCut/DeepLabCut.git@413ae5e2c410fb9da3da26c333b6a9b87ab6c38f#egg=deeplabcut
 ```
 - Change direcotry to ```/conda-environments``` where the ```DLC-CPU.yaml``` locates:
 ```bash
-cd ../../DeepLabCut/conda-environments
+$ cd ../../DeepLabCut/conda-environments
 ```
 - Create DLC-CPU environment and install CPU version of DeepLabCut:
 ```bash
-conda env create -f DLC-CPU.yaml
+$ conda env create -f DLC-CPU.yaml
 ```
 
 **3. Install R and the packages**
@@ -44,22 +44,22 @@ We use R 3.6.1 to develop some part of anaylsis pipeline, you can find more info
 
 - Install R version 3.6.1 (2019-07-05) and the r-base-dev package to be able to compile R packages:
 ```bash
-sudo apt-get update 
-sudo apt-get install r-base-dev=3.6.1
+$ sudo apt-get update 
+$ sudo apt-get install r-base-dev=3.6.1
 ```
 
 - Launch R to install packages by entering ```R``` in the terminal for installing the following packages:
 ```bash
-R
+$ R
 ```
 - Install R packages used in this paper in R:
 ```bash
-install.packages("ggpmisc")
-install.packages("ggplot2")
-install.packages("tidyverse")
-install.packages("tidyr")
-install.packages("dplyr")
-install.packages("reshape2")
+> install.packages("ggpmisc")
+> install.packages("ggplot2")
+> install.packages("tidyverse")
+> install.packages("tidyr")
+> install.packages("dplyr")
+> install.packages("reshape2")
 ```
 
 **Optional**
@@ -67,19 +67,19 @@ Now, the dependencies of ```AN``` environment, DeepLabCut, and R are installed.
 If you need to use AN independently anytime to check python script seperately, remeber activate ```AN``` environment manually before running the script by:
 ```bash
 source activate AN
-python name.py
+$ python name.py
 ```
 
 If you need to use DeepLabCut independently anytime, remember activate the environment manually before running the script by:
 ```bash
 source activate DLC-CPU
-python name.py
+$ python name.py
 ```
 
 There is no environment for ```R```. 
 To run the R script in the terminal independently:
 ```bash
-Rscript name.R
+$ Rscript name.R
 ```
 
 
