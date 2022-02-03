@@ -132,41 +132,47 @@ In the folder ```/scripts_for_public```, you can generate the plots of figures b
 
 **Content**
 - [FigS1](#Figures-from-dataset-00_)
-- [Figures from dataset 00_, 01_ and 03_](#Figures-from-dataset-00_-01_-and-03_)
-- [Figures from dataset 03_](#Figures-from-dataset-03_)
-- [Figures from dataset 04_](#Figures-from-dataset-04_)
-- [Figures from dataset 05_](#Figures-from-dataset-05_)
-- [Figures from dataset 06_](#Figures-from-dataset-06_)
-- [Figures from dataset 07_](#Figures-from-dataset-07_)
+- [Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a](#Figures-from-dataset-00_-01_-and-03_)
+- [Fig7a](#Figures-from-dataset-00_-01_-and-03_)
+- [Fig10b_right, Fig10c](#Figures-from-dataset-00_-01_-and-03_)
+- [FigS2](#Figures-from-dataset-03_)
+- [FigS3](#Figures-from-dataset-03_)
+- [Fig4b, Fig5b, Fig6b, Fig7b, Fig8b, Fig9b](#Figures-from-dataset-03_)
+- [Fig6c, Fig7e](#Figures-from-dataset-03_)
+- [FigS5](#Figures-from-dataset-03_)
+- [Fig3, FigS4](#Figures-from-dataset-04_)
+- [FigS7](#Figures-from-dataset-05_)
+- [FigS6](#Figures-from-dataset-06_)
+- [Fig10b_left](#Figures-from-dataset-07_)
 
 
 ### Figures from dataset 00_: 
-- FigS1: Semi-automated detection of proboscis extensions.
+- **FigS1**: Semi-automated detection of proboscis extensions.
 
 ### Figures from dataset 00_, 01_ and 03_: 
-- Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a: Prediction of neural activity; Fig7c: Prediction of neural activity difference between left and right neurons from turning.
-- Fig7a: Explained variance matrix by turning.
-- Fig10b_right, Fig10c: Prediction of neural activity from convoluted PE.
+- **Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a**: Prediction of neural activity; Fig7c: Prediction of neural activity difference between left and right neurons from turning.
+- **Fig7a**: Explained variance matrix by turning.
+- **Fig10b_right, Fig10c**: Prediction of neural activity from convoluted PE.
 
 ### Figures from dataset 03_:
-- FigS2: Joint angle and behavior covariance matrix.
-- FigS3: Behavioral event-based average enural activity. 
-- Fig4b, Fig5b, Fig6b, Fig7b, Fig8b, Fig9b: Behavioral event-based average enural activity. 
-- Fig6c, Fig7e: Neural activity-based ball rotation.
-- FigS5: ANs from SS36112 likely specifically respond to puff stimulation rather than backward walking.
+- **FigS2**: Joint angle and behavior covariance matrix.
+- **FigS3**: Behavioral event-based average enural activity. 
+- **Fig4b, Fig5b, Fig6b, Fig7b, Fig8b, Fig9b**: Behavioral event-based average enural activity. 
+- **Fig6c, Fig7e**: Neural activity-based ball rotation.
+- **FigS5**: ANs from SS36112 likely specifically respond to puff stimulation rather than backward walking.
 
 
 ### Figures from dataset 04_:
-- Fig3, FigS4: Large-scale anatomical quantification of adult Drosophila ascending neuron projections to the brain and ventral nerve cord.
+- **Fig3, FigS4**: Large-scale anatomical quantification of adult Drosophila ascending neuron projections to the brain and ventral nerve cord.
 
 ### Figures from dataset 05_:
-- FigS7: ANs that are active off of the spherical treadmill.
+- **FigS7**: ANs that are active off of the spherical treadmill.
 
 ### Figures from dataset 06_:
-- FigS6: ANs from SS36112 respond to both air and CO2 puff.
+-  **FigS6**: ANs from SS36112 respond to both air and CO2 puff.
 
 ### Figures from dataset 07_:
-- Fig10b_left: Summary of neural activity of each PE during PE train.
+- **Fig10b_left**: Summary of neural activity of each PE during PE train.
 
 
 
