@@ -135,67 +135,67 @@ Ascending_Project_public
 In the folder ```/scripts_for_public```, you can generate the plots of figures by following the order depecited in the diagram to start the analysis from preprocessed data to the plots presented in the indicated figure panels. The details are shown below:
 
 **Content**
-- [Figures from dataset 00_](#figures-from-dataset-00_):
-  - [FigS1](#figS1): Semi-automated detection of proboscis extensions
+- [Figures from dataset 00_](#00):
+  - [FigS1: Semi-automated detection of proboscis extensions](#FigS1)
 
-- [Figures from dataset 00_, 01_ and 03_](#figures-from-dataset-00_,-01_-and-03_):
-  - [Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a: Prediction of neural activity](#Fig4a,-Fig5a,-Fig6a,-Fig7b,-Fig8a,-Fig9a,-Fig10a:-Prediction-of-neural activity)
-  - [Fig7c](#Fig7c)
-  - [Fig10b_right, Fig10c](#Fig10b_right,-Fig10c)
-  - [FigS10](#FigS10)
-  - [Fig2, FigS4 top](#Fig2,-FigS4-top)
-  - [Fig7a](#Fig7a)
+- [Figures from dataset 00_, 01_ and 03_](#00-01-03):
+  - [Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a: Prediction of neural activity](#Fig4a-Fig5a-Fig6a-Fig7b-Fig8a-Fig9a-Fig10a)
+  - [Fig7c: Prediction of neural activity difference between left and right neurons from turning](#Fig7c)
+  - [Fig10b_right, Fig10c: Prediction of neural activity from convoluted PE](#Fig10b)
+  - [FigS10: Behavior classifier confusion matrix](#FigS10)
+  - [Fig2, FigS4 top: GLM of joint angle, leg, leg pair, behavior in predicitng neural activity](#Fig2-FigS4-top)
+  - [Fig7a: Explained variance matrix of turning in predicitng neural activity](#Fig7a)
 
-- [Figures-from-dataset-03_](#Figures-from-dataset-03_):
-  - [FigS2](#FigS2)
+- [Figures-from-dataset-03_](#03):
+  - [FigS2](#figS2)
   - [FigS3](#FigS3)
-  - [Fig4b, Fig5b, Fig6b, Fig7b, Fig8b, Fig9b](#Fig4b,-Fig5b,-Fig6b,-Fig7b,-Fig8b,-Fig9b)
-  - [Fig6c, Fig7e](#Fig6c,-Fig7e)
+  - [Fig4b, Fig5b, Fig6b, Fig7b, Fig8b, Fig9b](#Fig4b-Fig5b-Fig6b-Fig7b-Fig8b-Fig9b)
+  - [Fig6c, Fig7e](#Fig6c-Fig7e)
   - [FigS5](#FigS5)
 
-- [Figures-from-dataset-04_](#Figures-from-dataset-04_):
-  - [Fig3, FigS4](#Figures-from-dataset-04_)
+- [Figures-from-dataset-04_](#04):
+  - [Fig3, FigS4](#Fig3-FigS4)
 
-- [Figures-from-dataset-05_](#Figures-from-dataset-05_):
-  - [FigS7](#Figures-from-dataset-05_)
+- [Figures-from-dataset-05_](#05):
+  - [FigS7](#FigS7)
 
-- [Figures-from-dataset-06_](#Figures-from-dataset-06_):
-  - [FigS6](#Figures-from-dataset-06_)
+- [Figures-from-dataset-06_](#06):
+  - [FigS6](#FigS6)
 
-- [Figures-from-dataset-07_](#Figures-from-dataset-07_):
-  - [Fig10b_left](#Figures-from-dataset-07_)
-
-
+- [Figures-from-dataset-07_](#07):
+  - [Fig10b_left](#Fig10b_left)
 
 
 
-### Figures from dataset 00_: 
+
+
+### Figures from dataset 00_: <span id="00"><span>
 #### FigS1: Semi-automated detection of proboscis extensions <span id="FigS1"><span>
 ```bash
 $ Ascending_Project_public/scripts_for_public/._00-0-plot_FigS1-exemplar_DLC_proboscisLabel_PEevt_detection.run
 ```
 The results can be found in ```Ascending_Project_public/output/FigS1-exemplar_PEevt_detection/```
 
-### Figures from dataset 00_, 01_ and 03_: 
+### Figures from dataset 00_, 01_ and 03_: <span id="00-01-03"><span>
 Intermediate file have to be generated first:
 ```bash
 $ Ascending_Project_public/scripts_for_public/._00_01_03-1_train_behavior_classifier.run
 $ Ascending_Project_public/scripts_for_public/._00_01_03-2_predict_behavior_and_sync_beh_w_DFF.run
 ```
 Once the intermediate results are generated, following plots can be made by corredponding bash scripts:
-#### Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a: Prediction of neural activity
+#### Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a: Prediction of neural activity <span id="Fig4a"><span>
 ```bash
 $ Ascending_Project_public/scripts_for_public/._00_01_03-2-plot_Fig4a_5a_6a_7b_8a_9a_10a-Plot_prediction_rawDFF_traces.run
 ```
-#### Fig7c: Prediction of neural activity difference between left and right neurons from turning
+#### Fig7c: Prediction of neural activity difference between left and right neurons from turning <span id="Fig7c"><span>
 ```bash
 $ Ascending_Project_public/scripts_for_public/._00_01_03-2-plot_Fig7c-Plot_dDFF_traces_fit_turning.run
 ```
-#### Fig10b_right, Fig10c: Prediction of neural activity from convoluted PE
+#### Fig10b_right, Fig10c: Prediction of neural activity from convoluted PE <span id="Fig10b"><span>
 ```bash
 $ Ascending_Project_public/scripts_for_public/._00_01_03-2-plot_Fig10b_right_10c-Plot_convPE.run
 ```
-#### FigS10: Behavior classifier confusion matrix
+#### FigS10: Behavior classifier confusion matrix <span id="FigS10"><span>
 ```bash
 $ Ascending_Project_public/scripts_for_public/._00_01_03-2-plot_FigS10-beh_jangle_confusionMat.run
 ```
