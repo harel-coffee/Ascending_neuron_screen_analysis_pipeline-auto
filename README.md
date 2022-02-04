@@ -252,7 +252,7 @@ $ Ascending_Project_public/scripts_for_public/._03-4-plot-FigS5-SS36112_independ
 ### Figures from dataset 04_:
 #### **Fig3, FigS4**: Large-scale anatomical quantification of adult Drosophila ascending neuron projections to the brain and ventral nerve cord.
 
-An intermediate results of puff and backward walking event detection need to be generated beforehand:
+Intermediate results of puff and backward walking event detection need to be generated beforehand:
 ```bash
 $ Ascending_Project_public/scripts_for_public/._04-1_prep_singleAN_innervation_mat.run
 ```
