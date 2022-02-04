@@ -216,7 +216,8 @@ $ ./_00_01_03-1_train_behavior_classifier.run
 $ ./_00_01_03-2_predict_behavior_and_sync_beh_w_DFF.run
 ```
 Outputs:
-```/output/FigS1-exemplar_PEevt_detection/```
+```/output/Fig2_S4-GLM_jangles_legs_beh_DFF/```
+<font color="red">**Note!!**: The intermediate resuls from behavior classifier at this stage can be substituted with the ones used in this paper in ```/02_Fig2_output_of_published_version``` if you want to skip training the behavior classifier and synhronization with two-photon neural values.</font>
  
 Once the intermediate results are generated, following plots can be made by corredponding bash scripts:
  
