@@ -170,7 +170,7 @@ In the folder ```/scripts_for_public```, you can generate the plots of figures b
 
 
 ### Figures from dataset 00_: 
-#### FigS1: Semi-automated detection of proboscis extensions
+#### FigS1: Semi-automated detection of proboscis extensions <span id="FigS1"><span>
 ```bash
 $ Ascending_Project_public/scripts_for_public/._00-0-plot_FigS1-exemplar_DLC_proboscisLabel_PEevt_detection.run
 ```
