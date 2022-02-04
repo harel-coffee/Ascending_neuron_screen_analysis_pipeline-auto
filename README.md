@@ -191,7 +191,7 @@ The intermediate results have to be generated in the order as guided below to be
 
 ### Figures from dataset 00_: <span id="00"><span>
  
-<p align="center">
+<p align="left">
   <img align="left" width="200" src="/images/Code_overflow_git_w_data_00.png">
 </p>
  
@@ -200,7 +200,8 @@ The intermediate results have to be generated in the order as guided below to be
 $ ./_00-0-plot_FigS1-exemplar_DLC_proboscisLabel_PEevt_detection.run
 ```
 The results can be found in ```Ascending_Project_public/output/FigS1-exemplar_PEevt_detection/```
-/n
+
+
 
 ### Figures from dataset 00_, 01_, and 03_: <span id="00-01-03"><span>
 
