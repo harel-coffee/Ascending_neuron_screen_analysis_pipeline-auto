@@ -8,7 +8,7 @@ This pipeline is made and run in Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-76-generic
  
 ## Content
 - [Installation](#installation)
-- [Download the preprocessed experimental data](#Download-the-preprocessed-experimental-data)
+- [Download preprocessed experimental data](#Download-preprocessed-experimental-data)
 - [Reproducing the figures](#reproducing-the-figures)
  
 
