@@ -321,6 +321,7 @@ $ ./_05-0-plot_FigS7-offBall_onBall_comparison.run
 <p align="center">
   <img align="center" width="200" src="/images/Code_overflow_git_w_data_06.png">
 </p>
+
 ####  FigS6: ANs from SS36112 respond to both air and CO2 puff <span id="FigS6"><span>
 ```bash
 $ ./_06-0-plot_FigS6-Plot_air_vs_CO2puff.run
@@ -330,6 +331,7 @@ $ ./_06-0-plot_FigS6-Plot_air_vs_CO2puff.run
 <p align="center">
   <img align="center" width="240" src="/images/Code_overflow_git_w_data_07.png">
 </p>
+
 #### Fig10b_left: Summary of neural activity of each PE during PE train <span id="Fig10b_left"><span>
 ```bash
 $ ./_07-0-plot_Fig10b_left-DFF_per_PE.run
