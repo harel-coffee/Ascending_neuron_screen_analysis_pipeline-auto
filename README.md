@@ -135,8 +135,8 @@ Ascending_Project_public
 In the folder ```/scripts_for_public```, you can generate the plots of figures by following the order depecited in the diagram to start the analysis from preprocessed data to the plots presented in the indicated figure panels. The details are shown below:
 
 **Content**
-- [Figures from dataset 00_](###figures-from-dataset-00_):
-  - [FigS1](####figS1)
+- [Figures from dataset 00_](#figures-from-dataset-00_):
+  - [FigS1](#figS1)
 
 - [Figures from dataset 00_, 01_ and 03_](###figures-from-dataset-00_,-01_-and-03_):
   - [Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a](####Fig4a,-Fig5a,-Fig6a,-Fig7b,-Fig8a,-Fig9a,-Fig10a)
