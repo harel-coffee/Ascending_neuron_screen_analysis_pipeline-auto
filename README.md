@@ -13,7 +13,7 @@ This pipeline is made and run in Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-76-generic
  
 
 ## Installation
-#### 1. Install the python environment ```AN``` to be able to run ```.py``` scripts as guided below:
+### 1. Install the python environment ```AN``` to be able to run ```.py``` scripts as guided below:
 - Change directory to your ```../Ascending_neuron_screen_analysis_pipeline``` folder where ```AN_env_public.yml``` locates:
 ```bash
 $ cd ../../Ascending_neuron_screen_analysis_pipeline
@@ -25,7 +25,7 @@ $ conda env create -f AN_env_public.yml
  
 
 
-#### 2. Install DeepLabCut of CPU version used in this paper in its own environment (make sure leave ```AN``` environment by ```conda deactivate``` before the following steps)
+### 2. Install DeepLabCut of CPU version used in this paper in its own environment (make sure leave ```AN``` environment by ```conda deactivate``` before the following steps)
 - Downlaod and install DeepLabCut:
 ```bash
 $ git clone git+https://github.com/DeepLabCut/DeepLabCut.git@413ae5e2c410fb9da3da26c333b6a9b87ab6c38f#egg=deeplabcut
@@ -41,7 +41,7 @@ $ conda env create -f DLC-CPU.yaml
 And DeepLabcut is intalled and ready to use.
 
 
-#### 3. Install R and the packages
+### 3. Install R and the packages
 We use R 3.6.1 to develop some part of anaylsis pipeline, you can find more information about R [here](https://stat.ethz.ch/pipermail/r-announce/2019/000643.html).
 
 - Install R version 3.6.1 (2019-07-05) and the r-base-dev package to be able to compile R packages:
@@ -149,25 +149,23 @@ In the folder ```/scripts_for_public```, you can generate the plots of figures b
 - [FigS6](#Figures-from-dataset-06_)
 - [Fig10b_left](#Figures-from-dataset-07_)
 
-**Diagram of analysis pipeline from data to output**
 
 
 
 
-
-#### Figures from dataset 00_: 
+### Figures from dataset 00_: 
 - **FigS1**: Semi-automated detection of proboscis extensions.
 ```bash
 $ Ascending_Project_public/scripts_for_public/._00-0-plot_FigS1-exemplar_DLC_proboscisLabel_PEevt_detection.run
 ```
-The out put file you can find in ```Ascending_Project_public/output/FigS1-exemplar_PEevt_detection/```
+The output file you can find in ```Ascending_Project_public/output/FigS1-exemplar_PEevt_detection/```
 
-#### Figures from dataset 00_, 01_ and 03_: 
+### Figures from dataset 00_, 01_ and 03_: 
 - **Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a**: Prediction of neural activity; **Fig7c**: Prediction of neural activity difference between left and right neurons from turning.
 - **Fig7a**: Explained variance matrix by turning.
 - **Fig10b_right, Fig10c**: Prediction of neural activity from convoluted PE.
 
-#### Figures from dataset 03_:
+### Figures from dataset 03_:
 - **FigS2**: Joint angle and behavior covariance matrix.
 - **FigS3**: Behavioral event-based average enural activity. 
 - **Fig4b, Fig5b, Fig6b, Fig7b, Fig8b, Fig9b**: Behavioral event-based average enural activity. 
@@ -175,16 +173,16 @@ The out put file you can find in ```Ascending_Project_public/output/FigS1-exempl
 - **FigS5**: ANs from SS36112 likely specifically respond to puff stimulation rather than backward walking.
 
 
-#### Figures from dataset 04_:
+### Figures from dataset 04_:
 - **Fig3, FigS4**: Large-scale anatomical quantification of adult Drosophila ascending neuron projections to the brain and ventral nerve cord.
 
-#### Figures from dataset 05_:
+### Figures from dataset 05_:
 - **FigS7**: ANs that are active off of the spherical treadmill.
 
-#### Figures from dataset 06_:
+### Figures from dataset 06_:
 -  **FigS6**: ANs from SS36112 respond to both air and CO2 puff.
 
-#### Figures from dataset 07_:
+### Figures from dataset 07_:
 - **Fig10b_left**: Summary of neural activity of each PE during PE train.
 
 
