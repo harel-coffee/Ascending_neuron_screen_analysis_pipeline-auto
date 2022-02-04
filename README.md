@@ -158,12 +158,38 @@ In the folder ```/scripts_for_public```, you can generate the plots of figures b
 ```bash
 $ Ascending_Project_public/scripts_for_public/._00-0-plot_FigS1-exemplar_DLC_proboscisLabel_PEevt_detection.run
 ```
-The output file you can find in ```Ascending_Project_public/output/FigS1-exemplar_PEevt_detection/```
+The results can be found in ```Ascending_Project_public/output/FigS1-exemplar_PEevt_detection/```
 
 ### Figures from dataset 00_, 01_ and 03_: 
-- **Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a**: Prediction of neural activity; **Fig7c**: Prediction of neural activity difference between left and right neurons from turning.
-- **Fig7a**: Explained variance matrix by turning.
+Intermediate results have to be generated first:
+```bash
+$ Ascending_Project_public/scripts_for_public/._00_01_03-1_train_behavior_classifier.run
+$ Ascending_Project_public/scripts_for_public/._00_01_03-2_predict_behavior_and_sync_beh_w_DFF.run
+```
+Once the intermediate results are generated, plots can be made by corredponding bash scripts:
+- **Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a**: Prediction of neural activity.
+```bash
+$ Ascending_Project_public/scripts_for_public/._00_01_03-2-plot_Fig4a_5a_6a_7b_8a_9a_10a-Plot_prediction_rawDFF_traces.run
+```
+- **Fig7c**: Prediction of neural activity difference between left and right neurons from turning.
+```bash
+$ Ascending_Project_public/scripts_for_public/._00_01_03-2-plot_Fig7c-Plot_dDFF_traces_fit_turning.run
+```
+
 - **Fig10b_right, Fig10c**: Prediction of neural activity from convoluted PE.
+```bash
+$ Ascending_Project_public/scripts_for_public/._00_01_03-2-plot_Fig10b_right_10c-Plot_convPE.run
+```
+- **FigS10**: Behavior classifier confusion matrix.
+```bash
+$ Ascending_Project_public/scripts_for_public/._00_01_03-2-plot_FigS10-beh_jangle_confusionMat.run
+```
+
+
+
+- **Fig7a**: Explained variance matrix by turning.
+```bash
+$ Ascending_Project_public/scripts_for_public/._00_01_03-4-plot_Fig7a-Plot_turn_analysis_matrix.run
 
 ### Figures from dataset 03_:
 - **FigS2**: Joint angle and behavior covariance matrix.
