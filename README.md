@@ -13,6 +13,9 @@ This pipeline is made and run in Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-76-generic
  
 
 ## Installation
+To be able to run all the script, python and R have to be installed.
+To be able to intall the environment with specific version of python packages, please install Anaconda first if you don't have.
+Install Anaconda --> https://www.anaconda.com/
 ### 1. Install the python environment ```AN``` to be able to run ```.py``` scripts as guided below:
 - Change directory to your ```../Ascending_neuron_screen_analysis_pipeline``` folder where ```AN_env_public.yml``` locates:
 ```bash
