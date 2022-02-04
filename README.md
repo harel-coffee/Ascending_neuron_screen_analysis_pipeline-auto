@@ -219,7 +219,7 @@ Outputs:
 ```/output/Fig2_S4-GLM_jangles_legs_beh_DFF/```
  
 
- <font color="red">**Note!!**: The intermediate resuls from behavior classifier at this stage can be substituted with the ones used in this paper in ```/02_Fig2_output_of_published_version``` if you want to skip training the behavior classifier and synhronization with two-photon neural values.</font>
+***Note: The intermediate resuls from behavior classifier at this stage can be substituted with the ones used in this paper from```/02_Fig2_output_of_published_version``` if you want to skip training the behavior classifier and the synhronization with two-photon neural values.***
 
  
 Once the intermediate results are generated, following plots can be made by corredponding bash scripts:
