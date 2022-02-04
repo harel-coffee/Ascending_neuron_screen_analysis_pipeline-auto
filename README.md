@@ -144,7 +144,7 @@ Ascending_neuron_screen_analysis_pipeline
 ## Reproducing the figures
 
 **Note:** before running the following scripts, make sure python environment and R packages are all installed (see the installation guide)
-To start running the analysis pipeline, execute the following ```.run``` script from the folder ```Ascending_Project_public/scripts_for_public/``` by:
+To start running the analysis pipeline, execute the following ```.run``` script from the folder ```Ascending_neuron_screen_analysis_pipeline/scripts_for_public/``` by:
 ```bash
 $ cd ../../Ascending_neuron_screen_analysis_pipeline/scripts_for_public/
 ```
