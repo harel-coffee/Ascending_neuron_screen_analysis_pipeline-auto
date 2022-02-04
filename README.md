@@ -142,7 +142,7 @@ $ ./_00-0-plot_FigS1-exemplar_DLC_proboscisLabel_PEevt_detection.run
 ```
 The intermediate results have to be generated in the order as guided below to be able to generate the plots. Please check the diagram in each session which depicts the workflow from specified dataset to the ouput plots. 
 
-#### Content
+### Content
 - [Figures from dataset 00_](#00):
   - [FigS1: Semi-automated detection of proboscis extensions](#FigS1)
 
