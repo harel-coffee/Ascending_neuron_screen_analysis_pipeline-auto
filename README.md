@@ -135,19 +135,35 @@ Ascending_Project_public
 In the folder ```/scripts_for_public```, you can generate the plots of figures by following the order depecited in the diagram to start the analysis from preprocessed data to the plots presented in the indicated figure panels. The details are shown below:
 
 **Content**
-- [FigS1](#Figures-from-dataset-00_)
-- [Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a](#Figures-from-dataset-00_-01_-and-03_), [Fig7c](#Figures-from-dataset-00_-01_-and-03_)
-- [Fig7a](#Figures-from-dataset-00_-01_-and-03_)
-- [Fig10b_right, Fig10c](#Figures-from-dataset-00_-01_-and-03_)
-- [FigS2](#Figures-from-dataset-03_)
-- [FigS3](#Figures-from-dataset-03_)
-- [Fig4b, Fig5b, Fig6b, Fig7b, Fig8b, Fig9b](#Figures-from-dataset-03_)
-- [Fig6c, Fig7e](#Figures-from-dataset-03_)
-- [FigS5](#Figures-from-dataset-03_)
-- [Fig3, FigS4](#Figures-from-dataset-04_)
-- [FigS7](#Figures-from-dataset-05_)
-- [FigS6](#Figures-from-dataset-06_)
-- [Fig10b_left](#Figures-from-dataset-07_)
+- [Figures from dataset 00_](#Figures-from-dataset-00_)"
+ - [FigS1](#FigS1)
+
+- [Figures from dataset 00_, 01_ and 03_](#Figures-from-dataset-00_,-01_-and-03_):
+ - [Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a](#Fig4a,-Fig5a,-Fig6a,-Fig7b,-Fig8a,-Fig9a,-Fig10a)
+ - [Fig7c](#Fig7c)
+ - [Fig10b_right, Fig10c](#Fig10b_right,-Fig10c)
+ - [FigS10](#FigS10)
+ - [Fig2, FigS4 top](#Fig2,-FigS4-top)
+ - [Fig7a](#Fig7a)
+
+- [Figures-from-dataset-03_](#Figures-from-dataset-03_):
+ - [FigS2](#FigS2)
+ - [FigS3](#FigS3)
+ - [Fig4b, Fig5b, Fig6b, Fig7b, Fig8b, Fig9b](#Fig4b,-Fig5b,-Fig6b,-Fig7b,-Fig8b,-Fig9b)
+ - [Fig6c, Fig7e](#Fig6c,-Fig7e)
+ - [FigS5](#FigS5)
+
+- [Figures-from-dataset-04_](#Figures-from-dataset-04_):
+ - [Fig3, FigS4](#Figures-from-dataset-04_)
+
+- [Figures-from-dataset-05_](#Figures-from-dataset-05_):
+ - [FigS7](#Figures-from-dataset-05_)
+
+- [Figures-from-dataset-06_](#Figures-from-dataset-06_):
+ - [FigS6](#Figures-from-dataset-06_)
+
+- [Figures-from-dataset-07_](#Figures-from-dataset-07_):
+ - [Fig10b_left](#Figures-from-dataset-07_)
 
 
 
