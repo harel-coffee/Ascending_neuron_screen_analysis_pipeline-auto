@@ -192,7 +192,7 @@ The intermediate results have to be generated in the order as guided below to be
 ### Figures from dataset 00_: <span id="00"><span>
  
 <p align="center">
-  <img align="center" width="200" src="/images/Code_overflow_git_w_data_00.png">
+  <img align="left" width="200" src="/images/Code_overflow_git_w_data_00.png">
 </p>
  
 #### FigS1: Semi-automated detection of proboscis extensions <span id="FigS1"><span>
