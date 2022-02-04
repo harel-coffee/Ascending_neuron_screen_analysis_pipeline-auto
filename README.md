@@ -139,7 +139,7 @@ In the folder ```/scripts_for_public```, you can generate the plots of figures b
   - [FigS1: Semi-automated detection of proboscis extensions](#FigS1)
 
 - [Figures from dataset 00_, 01_ and 03_](#00-01-03):
-  - [Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a: Prediction of neural activity](#Fig4a-Fig5a-Fig6a-Fig7b-Fig8a-Fig9a-Fig10a)
+  - [Fig4a Fig5a Fig6a Fig7b Fig8a Fig9a Fig10a: Prediction of neural activity](#Fig4a-Fig5a-Fig6a-Fig7b-Fig8a-Fig9a-Fig10a)
   - [Fig7c: Prediction of neural activity difference between left and right neurons from turning](#Fig7c)
   - [Fig10b_right, Fig10c: Prediction of neural activity from convoluted PE](#Fig10b)
   - [FigS10: Behavior classifier confusion matrix](#FigS10)
