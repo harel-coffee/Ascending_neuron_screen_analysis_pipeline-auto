@@ -183,7 +183,7 @@ $ Ascending_Project_public/scripts_for_public/._00_01_03-1_train_behavior_classi
 $ Ascending_Project_public/scripts_for_public/._00_01_03-2_predict_behavior_and_sync_beh_w_DFF.run
 ```
 Once the intermediate results are generated, following plots can be made by corredponding bash scripts:
-#### Fig4a Fig5a Fig6a Fig7b Fig8a Fig9a Fig10a: Prediction of neural activity <span id="Fig4a"><span>
+#### Fig4a Fig5a Fig6a Fig7b Fig8a Fig9a Fig10a: Prediction of neural activity <span id="Fig4a-Fig5a-Fig6a-Fig7b-Fig8a-Fig9a-Fig10a"><span>
 ```bash
 $ Ascending_Project_public/scripts_for_public/._00_01_03-2-plot_Fig4a_5a_6a_7b_8a_9a_10a-Plot_prediction_rawDFF_traces.run
 ```
