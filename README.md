@@ -190,9 +190,11 @@ The intermediate results have to be generated in the order as guided below to be
 
 
 ### Figures from dataset 00_: <span id="00"><span>
+ 
 <p align="center">
   <img align="center" width="200" src="/images/Code_overflow_git_w_data_00.png">
 </p>
+ 
 #### FigS1: Semi-automated detection of proboscis extensions <span id="FigS1"><span>
 ```bash
 $ ./_00-0-plot_FigS1-exemplar_DLC_proboscisLabel_PEevt_detection.run
@@ -200,9 +202,11 @@ $ ./_00-0-plot_FigS1-exemplar_DLC_proboscisLabel_PEevt_detection.run
 The results can be found in ```Ascending_Project_public/output/FigS1-exemplar_PEevt_detection/```
 
 ### Figures from dataset 00_, 01_ and 03_: <span id="00-01-03"><span>
+
 <p align="center">
   <img align="center" width="200" src="/images/Code_overflow_git_w_data_00_01_03.png">
 </p>
+
 Intermediate file have to be generated first:
 ```bash
 $ ./_00_01_03-1_train_behavior_classifier.run
@@ -250,9 +254,11 @@ $ ./_00_01_03-4-plot_Fig7a-Plot_turn_analysis_matrix.run
 
 
 ### Figures from dataset 03_: <span id="03"><span>
+
 <p align="center">
   <img align="center" width="200" src="/images/Code_overflow_git_w_data_03.png">
 </p>
+
 #### FigS2: Joint angle and behavior covariance matrix <span id="FigS2"><span>
 ```bash
 $ ./_03-0-plot_FigS2-jangle_beh_covariance.run
@@ -295,9 +301,11 @@ $ ./_03-4-plot-FigS5-SS36112_independentBW_vs_CO2puffBW_analysis.run
 
 
 ### Figures from dataset 04_: <span id="04"><span>
+
 <p align="center">
   <img align="center" width="200" src="/images/Code_overflow_git_w_data_04.png">
 </p>
+
 #### Fig3, FigS4: Large-scale anatomical quantification of adult Drosophila ascending neuron projections to the brain and ventral nerve cord <span id="Fig3_ FigS4"><span>
 
 Intermediate results of puff and backward walking event detection need to be generated beforehand:
@@ -310,14 +318,17 @@ $ ./_04-1-plot_Fig3_S4-Plot_singleAN_innervation_mat.run
 ```
 
 ### Figures from dataset 05_: <span id="05"><span>
+
 <p align="center">
   <img align="center" width="200" src="/images/Code_overflow_git_w_data_05.png">
 </p>
+
 #### FigS7: ANs that are active off of the spherical treadmill <span id="FigS7"><span>
 ```bash
 $ ./_05-0-plot_FigS7-offBall_onBall_comparison.run
 ```
 ### Figures from dataset 06_: <span id="06"><span>
+
 <p align="center">
   <img align="center" width="200" src="/images/Code_overflow_git_w_data_06.png">
 </p>
@@ -328,6 +339,7 @@ $ ./_06-0-plot_FigS6-Plot_air_vs_CO2puff.run
 ```
 
 ### Figures from dataset 07_: <span id="07"><span>
+
 <p align="center">
   <img align="center" width="240" src="/images/Code_overflow_git_w_data_07.png">
 </p>
