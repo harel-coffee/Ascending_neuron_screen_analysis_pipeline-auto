@@ -19,7 +19,7 @@ To be able to intall the environment with specific version of python packages, p
 
 Install Anaconda --> https://www.anaconda.com/
 ### 1. Install python environment ```AN``` to be able to run ```.py``` scripts by following the guidance below:
-Clone repository
+Clone repository:
 ```bash 
 $ cd ../to/where/you/want/
 $ git clone https://github.com/NeLy-EPFL/Ascending_neuron_screen_analysis_pipeline.git
@@ -28,7 +28,7 @@ Change directory to your ```../Ascending_neuron_screen_analysis_pipeline``` fold
 ```bash
 $ cd ../../Ascending_neuron_screen_analysis_pipeline
 ```
-Install the python environment with specified package in AN_env_public.yml
+Install ```AN``` python environment with packages in ```AN_env_public.yml```:
 ```bash
 $ conda env create -f AN_env_public.yml
 ```
@@ -54,17 +54,17 @@ And DeepLabcut is intalled and ready to use.
 ### 3. Install R and the packages
 We use R 3.6.1 to develop some part of anaylsis pipeline, you can find more information about R [here](https://stat.ethz.ch/pipermail/r-announce/2019/000643.html).
 
-- Install R version 3.6.1 (2019-07-05) and the r-base-dev package to be able to compile R packages:
+Install R version 3.6.1 (2019-07-05) and the r-base-dev package to be able to compile R packages:
 ```bash
 $ sudo apt-get update 
 $ sudo apt-get install r-base-dev=3.6.1
 ```
 
-- Launch R to install packages by entering ```R``` in the terminal for installing the following packages:
+Launch R to install packages by entering ```R``` in the terminal for installing the following packages:
 ```bash
 $ R
 ```
-- Install R packages used in this paper in R:
+Install R packages used in this paper in R:
 ```R
 > install.packages("ggpmisc")
 > install.packages("ggplot2")
@@ -75,18 +75,19 @@ $ R
 ```
 
 **Optional**
-Now, the dependencies of ```AN``` environment, DeepLabCut, and R are installed.
-If you need to use AN independently anytime to check python script seperately, remeber activate ```AN``` environment manually before running the script by:
+Now, ```AN``` conda environment, DeepLabCut, and R are installed.
+If you want to to check python script seperately, remeber activate ```AN``` environment manually before running the each ```.py``` script by:
 ```bash
 $ source activate AN
 $ python name.py
 ```
 
-If you need to use DeepLabCut independently anytime, remember activate the environment manually before running the script by:
+If you want to use DeepLabCut independently anytime, remember to activate DLC-CPU environment manually before running the script by:
 ```bash
 $ source activate DLC-CPU
 $ python name.py
 ```
+In our case, only 
 
 
 
@@ -142,7 +143,7 @@ Ascending_neuron_screen_analysis_pipeline
 ## Reproducing the figures
 
 **Note:** before running the following scripts, make sure python environment and R packages are all installed (see the installation guide)
-To start running the analysis pipeline, execute the following ```.run``` script from the folder ```Ascending_neuron_screen_analysis_pipeline/scripts_for_public/``` by:
+To start running the analysis pipeline, execute the following ```.run``` script from the folder ```Ascending_Project_public/scripts_for_public/``` by:
 ```bash
 $ cd ../../Ascending_neuron_screen_analysis_pipeline/scripts_for_public/
 ```
@@ -188,6 +189,9 @@ The intermediate results have to be generated in the order as guided below to be
 
 
 ### Figures from dataset 00_: <span id="00"><span>
+<p align="center">
+  <img align="center" width="600" src="/images/Code_overflow_git_w_data_00.png">
+</p>
 #### FigS1: Semi-automated detection of proboscis extensions <span id="FigS1"><span>
 ```bash
 $ ./_00-0-plot_FigS1-exemplar_DLC_proboscisLabel_PEevt_detection.run
