@@ -136,9 +136,9 @@ To start running the analysis pipeline, execute the following ```.run``` script 
 ```bash
 $ cd ../../Ascending_Project_public/scripts_for_public/
 ```
-Execute the script:
+Execute the script by typeing ```./``` before the script fileame, for example:
 ```bash
-$ ./_0x-x-....run
+$ ./_00-0-plot_FigS1-exemplar_DLC_proboscisLabel_PEevt_detection.run
 ```
 The intermediate results have to be generated in the order as guided below to be able to generate the plots. Please check the diagram in each session which depicts the workflow from specified dataset to the ouput plots. 
 
@@ -180,96 +180,96 @@ The intermediate results have to be generated in the order as guided below to be
 ### Figures from dataset 00_: <span id="00"><span>
 #### FigS1: Semi-automated detection of proboscis extensions <span id="FigS1"><span>
 ```bash
-$ Ascending_Project_public/scripts_for_public/._00-0-plot_FigS1-exemplar_DLC_proboscisLabel_PEevt_detection.run
+$ ./_00-0-plot_FigS1-exemplar_DLC_proboscisLabel_PEevt_detection.run
 ```
 The results can be found in ```Ascending_Project_public/output/FigS1-exemplar_PEevt_detection/```
 
 ### Figures from dataset 00_, 01_ and 03_: <span id="00-01-03"><span>
 Intermediate file have to be generated first:
 ```bash
-$ Ascending_Project_public/scripts_for_public/._00_01_03-1_train_behavior_classifier.run
-$ Ascending_Project_public/scripts_for_public/._00_01_03-2_predict_behavior_and_sync_beh_w_DFF.run
+$ ./_00_01_03-1_train_behavior_classifier.run
+$ ./_00_01_03-2_predict_behavior_and_sync_beh_w_DFF.run
 ```
 Once the intermediate results are generated, following plots can be made by corredponding bash scripts:
 #### Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a: Prediction of neural activity <span id="Fig4a-Fig5a-Fig6a-Fig7b-Fig8a-Fig9a-Fig10a"><span>
 ```bash
-$ Ascending_Project_public/scripts_for_public/._00_01_03-2-plot_Fig4a_5a_6a_7b_8a_9a_10a-Plot_prediction_rawDFF_traces.run
+$ ./_00_01_03-2-plot_Fig4a_5a_6a_7b_8a_9a_10a-Plot_prediction_rawDFF_traces.run
 ```
 #### Fig7c: Prediction of neural activity difference between left and right neurons from turning <span id="Fig7c"><span>
 ```bash
-$ Ascending_Project_public/scripts_for_public/._00_01_03-2-plot_Fig7c-Plot_dDFF_traces_fit_turning.run
+$ ./_00_01_03-2-plot_Fig7c-Plot_dDFF_traces_fit_turning.run
 ```
 #### Fig10b_right, Fig10c: Prediction of neural activity from convoluted PE <span id="Fig10b_right-Fig10c"><span>
 ```bash
-$ Ascending_Project_public/scripts_for_public/._00_01_03-2-plot_Fig10b_right_10c-Plot_convPE.run
+$ ./_00_01_03-2-plot_Fig10b_right_10c-Plot_convPE.run
 ```
 #### FigS10: Behavior classifier confusion matrix <span id="FigS10"><span>
 ```bash
-$ Ascending_Project_public/scripts_for_public/._00_01_03-2-plot_FigS10-beh_jangle_confusionMat.run
+$ ./_00_01_03-2-plot_FigS10-beh_jangle_confusionMat.run
 ```
 
 
 #### Fig2, FigS4 top: GLM of joint angle, leg, leg pair, behavior in predicitng neural activity <span id="Fig2-FigS4-top"><span>
 For visulazing GLM matrix, further intermediate GLM results have to be generated first for make the plot:
 ```bash
-$ Ascending_Project_public/scripts_for_public/._00_01_03-3_glm_of_beh_leg_legPair_jangle_DFF.run
+$ ./_00_01_03-3_glm_of_beh_leg_legPair_jangle_DFF.run
 ```
 Then, plot with:
 ```bash
-$ Ascending_Project_public/scripts_for_public/._00_01_03-3-plot_Fig2abcd_S4-Plot_glmmat_of_beh_leg_legPair_jangle_DFF.run
+$ ./_00_01_03-3-plot_Fig2abcd_S4-Plot_glmmat_of_beh_leg_legPair_jangle_DFF.run
 ```
 
 
 #### Fig7a: Explained variance matrix of turning in predicitng neural activity <span id="Fig7a"><span>
 For visulazing turning r-squared matrix, further intermediate results have to be generated first for make the plot:
 ```bash
-$ Ascending_Project_public/scripts_for_public/._00_01_03-4_turn_mat_analysis.run
+$ ./_00_01_03-4_turn_mat_analysis.run
 ```
 Then, plot with:
 ```bash
-$ Ascending_Project_public/scripts_for_public/._00_01_03-4-plot_Fig7a-Plot_turn_analysis_matrix.run
+$ ./_00_01_03-4-plot_Fig7a-Plot_turn_analysis_matrix.run
 ```
 
 
 ### Figures from dataset 03_: <span id="03"><span>
 #### FigS2: Joint angle and behavior covariance matrix <span id="FigS2"><span>
 ```bash
-$ Ascending_Project_public/scripts_for_public/._03-0-plot_FigS2-jangle_beh_covariance.run
+$ ./_03-0-plot_FigS2-jangle_beh_covariance.run
 ```
 
 #### FigS3: Behavioral event-based average enural activity <span id="FigS3"><span>
 Intermediate results of averaging neural activity of each behavioral epoch need to be generated beforehand:
 ```bash
-$ Ascending_Project_public/scripts_for_public/._03-1_prep_DFF_beh_mat.run
+$ ./_03-1_prep_DFF_beh_mat.run
 ```
 Then, the results can be visualized with following scripts:
 ```bash
-$ Ascending_Project_public/scripts_for_public/._03-2-plot_FigS3-Plot_DFFmat.run
+$ ./_03-2-plot_FigS3-Plot_DFFmat.run
 ```
 
 #### Fig4b, Fig5b, Fig6b, Fig7b, Fig8b, Fig9b: Behavioral event-based average enural activity <span id="Fig4b-Fig5b-Fig6b-Fig7b-Fig8b-Fig9b"><span>
 ```bash
-$ Ascending_Project_public/scripts_for_public/._03-2-plot_Fig4b_5b_6b_7d_8b_9b-Plot_BehEvt_avgDFF.run
+$ ./_03-2-plot_Fig4b_5b_6b_7d_8b_9b-Plot_BehEvt_avgDFF.run
 ```
 
 #### Fig6c, Fig7e: Neural activity-corresponding ball rotation <span id="Fig6c-Fig7e"><span>
 Intermediate results of neural event detection need to be generated beforehand:
 ```bash
-$ Ascending_Project_public/scripts_for_public/._03-3_prep_DFFevt_analysis.run
+$ ./_03-3_prep_DFFevt_analysis.run
 ```
 Then, the results can be visualized with following scripts:
 ```bash
-$ Ascending_Project_public/scripts_for_public/._03-3-plot_Fig6c_7e-Plot_DFFevt_analysis.run
+$ ./_03-3-plot_Fig6c_7e-Plot_DFFevt_analysis.run
 ```
 
 #### FigS5: ANs from SS36112 likely specifically respond to puff stimulation rather than backward walking <span id="FigS5"><span>
 Intermediate results of puff and backward walking event detection need to be generated beforehand:
 ```bash
-$ Ascending_Project_public/scripts_for_public/._03-4_prep_SS36112_independentBW_vs_CO2puffBW_analysis.run
+$ ./_03-4_prep_SS36112_independentBW_vs_CO2puffBW_analysis.run
 ```
 Then, the results can be visualized with following scripts:
 ```bash
-$ Ascending_Project_public/scripts_for_public/._03-4-plot-FigS5-SS36112_independentBW_vs_CO2puffBW_analysis.run
+$ ./_03-4-plot-FigS5-SS36112_independentBW_vs_CO2puffBW_analysis.run
 ```
 
 
@@ -278,28 +278,28 @@ $ Ascending_Project_public/scripts_for_public/._03-4-plot-FigS5-SS36112_independ
 
 Intermediate results of puff and backward walking event detection need to be generated beforehand:
 ```bash
-$ Ascending_Project_public/scripts_for_public/._04-1_prep_singleAN_innervation_mat.run
+$ ./_04-1_prep_singleAN_innervation_mat.run
 ```
 Then, the results can be visualized with following scripts:
 ```bash
-$ Ascending_Project_public/scripts_for_public/._04-1-plot_Fig3_S4-Plot_singleAN_innervation_mat.run
+$ ./_04-1-plot_Fig3_S4-Plot_singleAN_innervation_mat.run
 ```
 
 ### Figures from dataset 05_: <span id="05"><span>
 #### FigS7: ANs that are active off of the spherical treadmill <span id="FigS7"><span>
 ```bash
-$ Ascending_Project_public/scripts_for_public/._05-0-plot_FigS7-offBall_onBall_comparison.run
+$ ./_05-0-plot_FigS7-offBall_onBall_comparison.run
 ```
 ### Figures from dataset 06_: <span id="06"><span>
 ####  FigS6: ANs from SS36112 respond to both air and CO2 puff <span id="FigS6"><span>
 ```bash
-$ Ascending_Project_public/scripts_for_public/._06-0-plot_FigS6-Plot_air_vs_CO2puff.run
+$ ./_06-0-plot_FigS6-Plot_air_vs_CO2puff.run
 ```
 
 ### Figures from dataset 07_: <span id="07"><span>
 #### Fig10b_left: Summary of neural activity of each PE during PE train <span id="0Fig10b_left"><span>
 ```bash
-$ Ascending_Project_public/scripts_for_public/._07-0-plot_Fig10b_left-DFF_per_PE.run
+$ ./_07-0-plot_Fig10b_left-DFF_per_PE.run
 ```
 
 
