@@ -137,7 +137,7 @@ To start running the analysis pipeline, execute the following ```.run``` script 
 $ cd ../../Ascending_Project_public/scripts_for_public/
 $ ./_0x-x-....run
 ```
-The intermediate results have to be generated in the order as guided below to be able to generate the plots. Please check the diagram which depict the workflow from specified dataset to the ouput plots. 
+The intermediate results have to be generated in the order as guided below to be able to generate the plots. Please check the diagram in each session which depicts the workflow from specified dataset to the ouput plots. 
 
 **Content**
 - [Figures from dataset 00_](#00):
