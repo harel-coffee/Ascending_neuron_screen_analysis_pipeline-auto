@@ -328,9 +328,9 @@ $ ./_06-0-plot_FigS6-Plot_air_vs_CO2puff.run
 
 ### Figures from dataset 07_: <span id="07"><span>
 <p align="center">
-  <img align="center" width="200" src="/images/Code_overflow_git_w_data_07.png">
+  <img align="center" width="240" src="/images/Code_overflow_git_w_data_07.png">
 </p>
-#### Fig10b_left: Summary of neural activity of each PE during PE train <span id="0Fig10b_left"><span>
+#### Fig10b_left: Summary of neural activity of each PE during PE train <span id="Fig10b_left"><span>
 ```bash
 $ ./_07-0-plot_Fig10b_left-DFF_per_PE.run
 ```
