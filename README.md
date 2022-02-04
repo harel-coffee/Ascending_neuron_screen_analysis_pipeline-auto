@@ -18,7 +18,7 @@ To be able to run all the script, python and R have to be installed.
 To be able to intall the environment with specific version of python packages, please install Anaconda first if you don't have. 
 
 Install Anaconda --> https://www.anaconda.com/
-### 1. Install the python environment ```AN``` to be able to run ```.py``` scripts as guided below:
+### 1. Install python environment ```AN``` to be able to run ```.py``` scripts by following the guidance below:
 - Clone repository
 ```bash 
 $ cd ../to/where/you/want/
