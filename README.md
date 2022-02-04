@@ -135,7 +135,7 @@ Ascending_Project_public
 To start running the analysis pipeline, execute the following ```.run``` script from the folder ```Ascending_Project_public/scripts_for_public/``` by:
 ```bash
 $ cd ../../Ascending_Project_public/scripts_for_public/
-$ ./_xx_xxxx.run
+$ ./_0x-x-....run
 ```
 The intermediate results have to be generated in the order as guided below to be able to generate the plots. Please check the diagram which depict the workflow from specified dataset to the ouput plots. 
 
