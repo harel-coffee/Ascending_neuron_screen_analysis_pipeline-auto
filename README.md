@@ -132,7 +132,12 @@ Ascending_Project_public
 ## Reproducing the figures
 
 **Note:** before running the following scripts, make sure python environment and R packages are all installed (see the installation guide)
-In the folder ```/scripts_for_public```, you can generate the plots of figures by following the order depecited in the diagram to start the analysis from preprocessed data to the plots presented in the indicated figure panels. The details are shown below:
+To start running the analysis pipeline, execute the following ```.run``` script from the folder ```Ascending_Project_public/scripts_for_public/``` by:
+```bash
+$ cd ../../Ascending_Project_public/scripts_for_public/
+$ ./_xx_xxxx.run
+```
+The intermediate results have to be generated in the order as guided below to be able to generate the plots. Please check the diagram which depict the workflow from specified dataset to the ouput plots. 
 
 **Content**
 - [Figures from dataset 00_](#00):
