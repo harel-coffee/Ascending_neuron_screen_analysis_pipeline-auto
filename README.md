@@ -19,6 +19,11 @@ To be able to intall the environment with specific version of python packages, p
 
 Install Anaconda --> https://www.anaconda.com/
 ### 1. Install the python environment ```AN``` to be able to run ```.py``` scripts as guided below:
+- Clone repository
+```bash 
+$ cd ../to/where/you/want/
+$ git clone https://github.com/NeLy-EPFL/Ascending_neuron_screen_analysis_pipeline.git
+```
 - Change directory to your ```../Ascending_neuron_screen_analysis_pipeline``` folder where ```AN_env_public.yml``` locates:
 ```bash
 $ cd ../../Ascending_neuron_screen_analysis_pipeline
