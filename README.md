@@ -139,7 +139,7 @@ In the folder ```/scripts_for_public```, you can generate the plots of figures b
   - [FigS1: Semi-automated detection of proboscis extensions](#FigS1)
 
 - [Figures from dataset 00_, 01_ and 03_](#00-01-03):
-  - [Fig4a Fig5a Fig6a Fig7b Fig8a Fig9a Fig10a: Prediction of neural activity](#Fig4a-Fig5a-Fig6a-Fig7b-Fig8a-Fig9a-Fig10a)
+  - [Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a: Prediction of neural activity](#Fig4a-Fig5a-Fig6a-Fig7b-Fig8a-Fig9a-Fig10a)
   - [Fig7c: Prediction of neural activity difference between left and right neurons from turning](#Fig7c)
   - [Fig10b_right, Fig10c: Prediction of neural activity from convoluted PE](#Fig10b)
   - [FigS10: Behavior classifier confusion matrix](#FigS10)
@@ -183,7 +183,7 @@ $ Ascending_Project_public/scripts_for_public/._00_01_03-1_train_behavior_classi
 $ Ascending_Project_public/scripts_for_public/._00_01_03-2_predict_behavior_and_sync_beh_w_DFF.run
 ```
 Once the intermediate results are generated, following plots can be made by corredponding bash scripts:
-#### Fig4a Fig5a Fig6a Fig7b Fig8a Fig9a Fig10a: Prediction of neural activity <span id="Fig4a-Fig5a-Fig6a-Fig7b-Fig8a-Fig9a-Fig10a"><span>
+#### Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a: Prediction of neural activity <span id="Fig4a-Fig5a-Fig6a-Fig7b-Fig8a-Fig9a-Fig10a"><span>
 ```bash
 $ Ascending_Project_public/scripts_for_public/._00_01_03-2-plot_Fig4a_5a_6a_7b_8a_9a_10a-Plot_prediction_rawDFF_traces.run
 ```
