@@ -14,7 +14,7 @@ This pipeline is made and run in Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-76-generic
 
 ## Installation
 **1. Install the python environment** ```AN``` ** to be able to run ```.py``` scripts as guided below:**
-- Change directory to your ```/Ascending_neuron_screen_analysis_pipeline``` where ```AN_env_public.yml``` locates by:
+- Change directory to your ```../Ascending_neuron_screen_analysis_pipeline``` folder where ```AN_env_public.yml``` locates:
 ```bash
 $ cd ../../Ascending_neuron_screen_analysis_pipeline
 ```
@@ -149,9 +149,18 @@ In the folder ```/scripts_for_public```, you can generate the plots of figures b
 - [FigS6](#Figures-from-dataset-06_)
 - [Fig10b_left](#Figures-from-dataset-07_)
 
+**Diagram of analysis pipeline from data to output**
+
+
+
+
 
 ### Figures from dataset 00_: 
 - **FigS1**: Semi-automated detection of proboscis extensions.
+```bash
+$ Ascending_Project_public/scripts_for_public/._00-0-plot_FigS1-exemplar_DLC_proboscisLabel_PEevt_detection.run
+```
+The out put file you can find in ```Ascending_Project_public/output/FigS1-exemplar_PEevt_detection/```
 
 ### Figures from dataset 00_, 01_ and 03_: 
 - **Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a**: Prediction of neural activity; **Fig7c**: Prediction of neural activity difference between left and right neurons from turning.
