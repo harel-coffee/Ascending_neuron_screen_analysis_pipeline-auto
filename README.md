@@ -207,7 +207,7 @@ Outputs:
 ### Figures from dataset 00_, 01_, and 03_: <span id="00-01-03"><span>
 
 <p align="left">
-  <img align="center" width="600" src="/images/Code_overflow_git_w_data_00_01_03.png">
+  <img align="center" width="640" src="/images/Code_overflow_git_w_data_00_01_03.png">
 </p>
 
 Intermediate file have to be generated first:
@@ -334,7 +334,7 @@ Outputs:
 ### Figures from dataset 04_: <span id="04"><span>
 
 <p align="left">
-  <img align="center" width="200" src="/images/Code_overflow_git_w_data_04.png">
+  <img align="center" width="230" src="/images/Code_overflow_git_w_data_04.png">
 </p>
 
 
