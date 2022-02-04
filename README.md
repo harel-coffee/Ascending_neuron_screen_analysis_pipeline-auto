@@ -19,16 +19,16 @@ To be able to intall the environment with specific version of python packages, p
 
 Install Anaconda --> https://www.anaconda.com/
 ### 1. Install python environment ```AN``` to be able to run ```.py``` scripts by following the guidance below:
-- Clone repository
+Clone repository
 ```bash 
 $ cd ../to/where/you/want/
 $ git clone https://github.com/NeLy-EPFL/Ascending_neuron_screen_analysis_pipeline.git
 ```
-- Change directory to your ```../Ascending_neuron_screen_analysis_pipeline``` folder where ```AN_env_public.yml``` locates:
+Change directory to your ```../Ascending_neuron_screen_analysis_pipeline``` folder where ```AN_env_public.yml``` locates:
 ```bash
 $ cd ../../Ascending_neuron_screen_analysis_pipeline
 ```
-- Install the python environment with specified package in AN_env_public.yml
+Install the python environment with specified package in AN_env_public.yml
 ```bash
 $ conda env create -f AN_env_public.yml
 ```
@@ -36,15 +36,15 @@ $ conda env create -f AN_env_public.yml
 
 
 ### 2. Install DeepLabCut of CPU version used in this paper in its own environment (make sure leave ```AN``` environment by ```conda deactivate``` before the following steps)
-- Downlaod and install DeepLabCut:
+Downlaod and install DeepLabCut:
 ```bash
 $ git clone git+https://github.com/DeepLabCut/DeepLabCut.git@413ae5e2c410fb9da3da26c333b6a9b87ab6c38f#egg=deeplabcut
 ```
-- Change direcotry to ```/conda-environments``` where the ```DLC-CPU.yaml``` locates:
+Change direcotry to ```/conda-environments``` where the ```DLC-CPU.yaml``` locates:
 ```bash
 $ cd ../../DeepLabCut/conda-environments
 ```
-- Create DLC-CPU environment and install CPU version of DeepLabCut:
+Create DLC-CPU environment and install CPU version of DeepLabCut:
 ```bash
 $ conda env create -f DLC-CPU.yaml
 ```
