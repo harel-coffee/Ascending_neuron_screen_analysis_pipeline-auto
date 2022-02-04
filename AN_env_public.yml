@@ -1,0 +1,36 @@
+name: AN_test
+#channels:
+#  - conda-forge
+#  - defaults
+dependencies:
+  - python=3.6
+  - pip
+  - pandas=1.1.5
+  - wxpython[version='<4.1.0']
+  - nb_conda
+  - matplotlib=2.2.3
+  - h5py=2.8.0
+  - statsmodels=0.11.1
+  - dataclasses==0.8
+  - pip:
+    - pickle5==0.0.12
+    - multiprocess 
+    - behavelet==0.0.2
+    - more-itertools==8.6.0
+    - tifffile==2020.9.3  
+    - opencv-python==4.5.1.48
+    - imblearn==0.0
+    - scikit-image==0.17.2
+    - scikit-learn==0.24.2
+    - scikit-posthocs==0.6.7
+    - scipy==1.2.1
+    - numpy==1.19.5
+    - pynrrd==0.4.2
+    - pytorch-lightning==1.5.8
+    - torch==1.10.1
+    - tifffile==2020.9.3
+    - tqdm==4.61.0
+    - -e git+https://github.com/NeLy-EPFL/DeepFly3D.git@544b823ac7e8289d7d876aed14be5eac492708d8#egg=deepfly
+    - -e git+https://github.com/NeLy-EPFL/df3dPostProcessing.git@b6be9b0587db55023bb41858c6b49d4e11a98e9f#egg=df3dPostProcessing
+    - -e git+https://github.com/NeLy-EPFL/flydf.git@5d8dc3979b565c87809c75022208623310d4ca82#egg=flydf
+    - -e git+https://github.com/NeLy-EPFL/utils2p.git@0f155bd3357d3fdf82e1e20605a6948d2a47fd75#egg=utils2p

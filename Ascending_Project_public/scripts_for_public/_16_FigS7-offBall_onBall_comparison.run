@@ -1,4 +1,0 @@
-#!/bin/bash
-
-source activate AN
-python FigS7-offBall_OnBall_DFF_plot.py

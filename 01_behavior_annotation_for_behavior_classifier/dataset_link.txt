@@ -1,0 +1,2 @@
+Please download the content of "01_behavior_annotation_for_behavior_classifier" into this folder via:
+https://doi.org/10.7910/DVN/VTKY8B

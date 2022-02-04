@@ -1,8 +1,0 @@
-#!/bin/bash
-
-## Make sure the python script run in this env. 
-source activate AN
-
-Rscript Fig7a-turning_mat.R
-python Fig7a-plot_turnMat.py
-Rscript Fig7c-turning_prediction_trace.R

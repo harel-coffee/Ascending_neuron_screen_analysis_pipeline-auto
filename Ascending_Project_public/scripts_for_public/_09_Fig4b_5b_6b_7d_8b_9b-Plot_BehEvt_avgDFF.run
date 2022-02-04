@@ -1,6 +1,0 @@
-#!/bin/bash
-
-## Make sure the python script run in this env. 
-source activate AN
-
-python Fig4b_5b_6b_7d_8b_9b-Plot_avgDFF_beh.py
