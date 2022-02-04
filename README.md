@@ -139,7 +139,7 @@ In the folder ```/scripts_for_public```, you can generate the plots of figures b
   - [FigS1:-Semi-automated-detection-of-proboscis-extensions](#FigS1:-Semi-automated-detection-of-proboscis-extensions)
 
 - [Figures from dataset 00_, 01_ and 03_](###figures-from-dataset-00_,-01_-and-03_):
-  - [Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a: Prediction of neural activity.](####Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a: Prediction of neural activity.)
+  - [Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a: Prediction of neural activity.](#Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a: Prediction of neural activity.)
   - [Fig7c](#Fig7c)
   - [Fig10b_right, Fig10c](#Fig10b_right,-Fig10c)
   - [FigS10](#FigS10)
