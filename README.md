@@ -199,13 +199,14 @@ The intermediate results have to be generated in the order as guided below to be
 ```bash
 $ ./_00-0-plot_FigS1-exemplar_DLC_proboscisLabel_PEevt_detection.run
 ```
-The results can be found in ```Ascending_Project_public/output/FigS1-exemplar_PEevt_detection/```
+Outputs:
+```/output/FigS1-exemplar_PEevt_detection/```
 
 
 
 ### Figures from dataset 00_, 01_, and 03_: <span id="00-01-03"><span>
 
-<p align="center">
+<p align="left">
   <img align="center" width="200" src="/images/Code_overflow_git_w_data_00_01_03.png">
 </p>
 
@@ -257,7 +258,7 @@ $ ./_00_01_03-4-plot_Fig7a-Plot_turn_analysis_matrix.run
 
 ### Figures from dataset 03_: <span id="03"><span>
 
-<p align="center">
+<p align="left">
   <img align="center" width="200" src="/images/Code_overflow_git_w_data_03.png">
 </p>
 
@@ -304,7 +305,7 @@ $ ./_03-4-plot-FigS5-SS36112_independentBW_vs_CO2puffBW_analysis.run
 
 ### Figures from dataset 04_: <span id="04"><span>
 
-<p align="center">
+<p align="left">
   <img align="center" width="200" src="/images/Code_overflow_git_w_data_04.png">
 </p>
 
@@ -321,7 +322,7 @@ $ ./_04-1-plot_Fig3_S4-Plot_singleAN_innervation_mat.run
 
 ### Figures from dataset 05_: <span id="05"><span>
 
-<p align="center">
+<p align="left">
   <img align="center" width="200" src="/images/Code_overflow_git_w_data_05.png">
 </p>
 
@@ -331,7 +332,7 @@ $ ./_05-0-plot_FigS7-offBall_onBall_comparison.run
 ```
 ### Figures from dataset 06_: <span id="06"><span>
 
-<p align="center">
+<p align="left">
   <img align="center" width="200" src="/images/Code_overflow_git_w_data_06.png">
 </p>
 
@@ -342,7 +343,7 @@ $ ./_06-0-plot_FigS6-Plot_air_vs_CO2puff.run
 
 ### Figures from dataset 07_: <span id="07"><span>
 
-<p align="center">
+<p align="left">
   <img align="center" width="240" src="/images/Code_overflow_git_w_data_07.png">
 </p>
 
