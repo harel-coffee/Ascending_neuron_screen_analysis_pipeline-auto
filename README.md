@@ -207,7 +207,7 @@ Outputs:
 ### Figures from dataset 00_, 01_, and 03_: <span id="00-01-03"><span>
 
 <p align="left">
-  <img align="center" width="680" src="/images/Code_overflow_git_w_data_00_01_03.png">
+  <img align="center" width="780" src="/images/Code_overflow_git_w_data_00_01_03.png">
 </p>
 
 Intermediate file have to be generated first:
@@ -380,7 +380,7 @@ Outputs:
 ### Figures from dataset 07_: <span id="07"><span>
 
 <p align="left">
-  <img align="center" width="240" src="/images/Code_overflow_git_w_data_07.png">
+  <img align="center" width="270" src="/images/Code_overflow_git_w_data_07.png">
 </p>
 
 #### Fig10b_left: Summary of neural activity of each PE during PE train <span id="Fig10b_left"><span>
