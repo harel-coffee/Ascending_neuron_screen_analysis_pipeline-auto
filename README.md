@@ -104,7 +104,7 @@ $ Rscript name.R
 Download the content from [Harvard dataverse](https://dataverse.harvard.edu/dataverse/AN) and make sure the location of data content inside each numbered folder are as below:
 
 ```bash
-Ascending_Project_public
+Ascending_neuron_screen_analysis_pipeline
 ├── 00_behavior_data_preprocess
 │   ├── CO2puff_regressors
 │   ├── df3dResults_ballRot_captureMeta
@@ -144,7 +144,7 @@ Ascending_Project_public
 **Note:** before running the following scripts, make sure python environment and R packages are all installed (see the installation guide)
 To start running the analysis pipeline, execute the following ```.run``` script from the folder ```Ascending_Project_public/scripts_for_public/``` by:
 ```bash
-$ cd ../../Ascending_Project_public/scripts_for_public/
+$ cd ../../Ascending_neuron_screen_analysis_pipeline/scripts_for_public/
 ```
 Execute the script by typeing ```./``` before the script fileame, for example:
 ```bash
