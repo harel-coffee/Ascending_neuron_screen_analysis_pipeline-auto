@@ -136,7 +136,7 @@ In the folder ```/scripts_for_public```, you can generate the plots of figures b
 
 **Content**
 - [Figures from dataset 00_](#Figures-from-dataset-00_)"
- - [FigS1](#FigS1)
+  - [FigS1](#FigS1)
 
 - [Figures from dataset 00_, 01_ and 03_](#Figures-from-dataset-00_,-01_-and-03_):
  - [Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a](#Fig4a,-Fig5a,-Fig6a,-Fig7b,-Fig8a,-Fig9a,-Fig10a)
