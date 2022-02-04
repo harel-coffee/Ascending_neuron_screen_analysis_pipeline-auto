@@ -147,23 +147,23 @@ In the folder ```/scripts_for_public```, you can generate the plots of figures b
   - [Fig7a: Explained variance matrix of turning in predicitng neural activity](#Fig7a)
 
 - [Figures-from-dataset-03_](#03):
-  - [FigS2](#figS2)
-  - [FigS3](#FigS3)
-  - [Fig4b, Fig5b, Fig6b, Fig7b, Fig8b, Fig9b](#Fig4b-Fig5b-Fig6b-Fig7b-Fig8b-Fig9b)
-  - [Fig6c, Fig7e](#Fig6c-Fig7e)
-  - [FigS5](#FigS5)
+  - [FigS2: Joint angle and behavior covariance matrix](#figS2)
+  - [FigS3: Behavioral event-based average enural activity](#FigS3)
+  - [Fig4b, Fig5b, Fig6b, Fig7b, Fig8b, Fig9b: Behavioral event-based average enural activity](#Fig4b-Fig5b-Fig6b-Fig7b-Fig8b-Fig9b)
+  - [Fig6c, Fig7e: Neural activity-corresponding ball rotation](#Fig6c-Fig7e)
+  - [FigS5: ANs from SS36112 likely specifically respond to puff stimulation rather than backward walking](#FigS5)
 
 - [Figures-from-dataset-04_](#04):
-  - [Fig3, FigS4](#Fig3-FigS4)
+  - [Fig3, FigS4: Large-scale anatomical quantification of adult Drosophila ascending neuron projections to the brain and ventral nerve cord](#Fig3-FigS4)
 
 - [Figures-from-dataset-05_](#05):
-  - [FigS7](#FigS7)
+  - [FigS7: ANs that are active off of the spherical treadmill](#FigS7)
 
 - [Figures-from-dataset-06_](#06):
-  - [FigS6](#FigS6)
+  - [FigS6: ANs from SS36112 respond to both air and CO2 puff](#FigS6)
 
 - [Figures-from-dataset-07_](#07):
-  - [Fig10b_left](#Fig10b_left)
+  - [Fig10b_left: Summary of neural activity of each PE during PE train](#Fig10b_left)
 
 
 
@@ -244,7 +244,7 @@ $ Ascending_Project_public/scripts_for_public/._03-2-plot_FigS3-Plot_DFFmat.run
 $ Ascending_Project_public/scripts_for_public/._03-2-plot_Fig4b_5b_6b_7d_8b_9b-Plot_BehEvt_avgDFF.run
 ```
 
-#### Fig6c, Fig7e: Neural activity-based ball rotation
+#### Fig6c, Fig7e: Neural activity-corresponding ball rotation
 Intermediate results of neural event detection need to be generated beforehand:
 ```bash
 $ Ascending_Project_public/scripts_for_public/._03-3_prep_DFFevt_analysis.run
