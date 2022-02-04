@@ -103,7 +103,7 @@ $ Rscript name.R
 ## Download the preprocessed experimental data
 Download the content from [Harvard dataverse](https://dataverse.harvard.edu/dataverse/AN) and make sure the location of data content inside each numbered folder are as below:
 
-```HTML
+```C++
 Ascending_neuron_screen_analysis_pipeline
 ├── 00_behavior_data_preprocess
 │   ├── CO2puff_regressors
