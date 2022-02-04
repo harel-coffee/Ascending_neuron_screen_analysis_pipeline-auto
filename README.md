@@ -380,7 +380,7 @@ Outputs:
 ### Figures from dataset 07_: <span id="07"><span>
 
 <p align="left">
-  <img align="center" width="2550" src="/images/Code_overflow_git_w_data_07.png">
+  <img align="center" width="255" src="/images/Code_overflow_git_w_data_07.png">
 </p>
 
 #### Fig10b_left: Summary of neural activity of each PE during PE train <span id="Fig10b_left"><span>
