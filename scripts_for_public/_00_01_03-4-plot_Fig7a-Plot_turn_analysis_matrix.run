@@ -1,0 +1,7 @@
+#!/bin/bash
+
+## Make sure the python script run in this env. 
+source activate AN
+
+python Fig7a-plot_turnMat.py
+

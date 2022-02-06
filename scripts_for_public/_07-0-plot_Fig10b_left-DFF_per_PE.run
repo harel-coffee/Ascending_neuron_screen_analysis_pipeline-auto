@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source activate AN
+
+python Fig10b_left-Plot_dFF_per_PE.py

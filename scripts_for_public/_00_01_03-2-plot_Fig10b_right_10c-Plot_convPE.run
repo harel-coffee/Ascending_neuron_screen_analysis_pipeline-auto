@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source activate AN
+
+Rscript Fig10b_right_10c-PER_conv_analysis.R

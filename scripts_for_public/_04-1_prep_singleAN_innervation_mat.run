@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+## Make sure the script run in this env. 
+source activate AN
+
+python Fig3-1-brain-neuite-innervationAnalysis.py
+python Fig3-2-Make_morphology_csv_for_RmatrixPlot.py

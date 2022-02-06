@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+source activate AN
+python FigS2-covariance_jangles.py

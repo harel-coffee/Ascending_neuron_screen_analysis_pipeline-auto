@@ -1,0 +1,4 @@
+#!/bin/bash
+
+source activate AN
+python Fig6c_7e-DFFevt_detection.py

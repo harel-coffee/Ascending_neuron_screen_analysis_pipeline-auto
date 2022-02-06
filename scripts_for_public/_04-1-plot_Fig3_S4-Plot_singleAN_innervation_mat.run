@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+## Make sure the script run in this env. 
+source activate AN
+
+python Fig3-3-Plot_innervation_mat.py

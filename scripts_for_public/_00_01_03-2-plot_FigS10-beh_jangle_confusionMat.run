@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+source activate AN
+python FigS10_confusion_matrix_behaviour_classification.py

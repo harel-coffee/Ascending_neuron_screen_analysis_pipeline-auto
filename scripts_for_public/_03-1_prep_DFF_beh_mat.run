@@ -1,0 +1,6 @@
+#!/bin/bash
+
+## Make sure the python script run in this env. 
+source activate AN
+
+python FigS3-1-prepare_GCmatrix.py

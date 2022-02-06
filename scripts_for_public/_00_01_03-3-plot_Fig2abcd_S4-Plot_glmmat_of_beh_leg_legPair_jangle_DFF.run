@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+
+## Make sure the script run in this env. 
+source activate AN
+
+python Fig2-Plot_GLM.py

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source activate AN
+python FigS5-1-CO2evt_detection.py
+
