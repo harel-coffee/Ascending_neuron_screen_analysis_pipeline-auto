@@ -18,17 +18,17 @@ To be able to run all the script, python and R have to be installed.
 To be able to intall the environment with specific version of python packages, please install Anaconda first if you don't have. 
 
 Install Anaconda --> https://www.anaconda.com/
-### 1. Install the python environment ```AN``` to be able to run ```.py``` scripts as guided below:
-- Clone repository
+### 1. Install python environment ```AN``` to be able to run ```.py``` scripts by following the guidance below:
+Clone repository:
 ```bash 
 $ cd ../to/where/you/want/
 $ git clone https://github.com/NeLy-EPFL/Ascending_neuron_screen_analysis_pipeline.git
 ```
-- Change directory to your ```../Ascending_neuron_screen_analysis_pipeline``` folder where ```AN_env_public.yml``` locates:
+Change directory to your ```../Ascending_neuron_screen_analysis_pipeline``` folder where ```AN_env_public.yml``` locates:
 ```bash
 $ cd ../../Ascending_neuron_screen_analysis_pipeline
 ```
-- Install the python environment with specified package in AN_env_public.yml
+Install ```AN``` python environment with packages in ```AN_env_public.yml```:
 ```bash
 $ conda env create -f AN_env_public.yml
 ```
@@ -36,15 +36,15 @@ $ conda env create -f AN_env_public.yml
 
 
 ### 2. Install DeepLabCut of CPU version used in this paper in its own environment (make sure leave ```AN``` environment by ```conda deactivate``` before the following steps)
-- Downlaod and install DeepLabCut:
+Downlaod and install DeepLabCut:
 ```bash
 $ git clone git+https://github.com/DeepLabCut/DeepLabCut.git@413ae5e2c410fb9da3da26c333b6a9b87ab6c38f#egg=deeplabcut
 ```
-- Change direcotry to ```/conda-environments``` where the ```DLC-CPU.yaml``` locates:
+Change direcotry to ```/conda-environments``` where the ```DLC-CPU.yaml``` locates:
 ```bash
 $ cd ../../DeepLabCut/conda-environments
 ```
-- Create DLC-CPU environment and install CPU version of DeepLabCut:
+Create DLC-CPU environment and install CPU version of DeepLabCut:
 ```bash
 $ conda env create -f DLC-CPU.yaml
 ```
@@ -54,17 +54,17 @@ And DeepLabcut is intalled and ready to use.
 ### 3. Install R and the packages
 We use R 3.6.1 to develop some part of anaylsis pipeline, you can find more information about R [here](https://stat.ethz.ch/pipermail/r-announce/2019/000643.html).
 
-- Install R version 3.6.1 (2019-07-05) and the r-base-dev package to be able to compile R packages:
+Install R version 3.6.1 (2019-07-05) and the r-base-dev package to be able to compile R packages:
 ```bash
 $ sudo apt-get update 
 $ sudo apt-get install r-base-dev=3.6.1
 ```
 
-- Launch R to install packages by entering ```R``` in the terminal for installing the following packages:
+Launch R to install packages by entering ```R``` in the terminal for installing the following packages:
 ```bash
 $ R
 ```
-- Install R packages used in this paper in R:
+Install R packages used in this paper in R:
 ```R
 > install.packages("ggpmisc")
 > install.packages("ggplot2")
@@ -75,18 +75,20 @@ $ R
 ```
 
 **Optional**
-Now, the dependencies of ```AN``` environment, DeepLabCut, and R are installed.
-If you need to use AN independently anytime to check python script seperately, remeber activate ```AN``` environment manually before running the script by:
+
+Now, ```AN``` conda environment, DeepLabCut, and R are installed.
+If you want to to check python script seperately, remeber activate ```AN``` environment manually before running the each ```.py``` script by:
 ```bash
 $ source activate AN
 $ python name.py
 ```
 
-If you need to use DeepLabCut independently anytime, remember activate the environment manually before running the script by:
+If you want to use DeepLabCut independently anytime, remember to activate DLC-CPU environment manually before running the script by:
 ```bash
 $ source activate DLC-CPU
 $ python name.py
 ```
+In our case, only 
 
 
 
@@ -142,7 +144,7 @@ Ascending_neuron_screen_analysis_pipeline
 ## Reproducing the figures
 
 **Note:** before running the following scripts, make sure python environment and R packages are all installed (see the installation guide)
-To start running the analysis pipeline, execute the following ```.run``` script from the folder ```Ascending_Project_public/scripts_for_public/``` by:
+To start running the analysis pipeline, execute the following ```.run``` script from the folder ```Ascending_neuron_screen_analysis_pipeline/scripts_for_public/``` by:
 ```bash
 $ cd ../../Ascending_neuron_screen_analysis_pipeline/scripts_for_public/
 ```
@@ -188,35 +190,68 @@ The intermediate results have to be generated in the order as guided below to be
 
 
 ### Figures from dataset 00_: <span id="00"><span>
+ 
+<p align="left">
+  <img align="center" width="200" src="/images/Code_overflow_git_w_data_00.png">
+</p>
+ 
 #### FigS1: Semi-automated detection of proboscis extensions <span id="FigS1"><span>
 ```bash
 $ ./_00-0-plot_FigS1-exemplar_DLC_proboscisLabel_PEevt_detection.run
 ```
-The results can be found in ```Ascending_Project_public/output/FigS1-exemplar_PEevt_detection/```
+Outputs:
+```/output/FigS1-exemplar_PEevt_detection/```
 
-### Figures from dataset 00_, 01_ and 03_: <span id="00-01-03"><span>
+
+
+### Figures from dataset 00_, 01_, and 03_: <span id="00-01-03"><span>
+
+<p align="left">
+  <img align="center" width="780" src="/images/Code_overflow_git_w_data_00_01_03.png">
+</p>
+
 Intermediate file have to be generated first:
 ```bash
 $ ./_00_01_03-1_train_behavior_classifier.run
 $ ./_00_01_03-2_predict_behavior_and_sync_beh_w_DFF.run
 ```
+Outputs:
+```/output/Fig2_S4-GLM_jangles_legs_beh_DFF/```
+ 
+
+***Note: The intermediate resuls from behavior classifier and synchronized dataframe at this stage can be substituted with the those used in this work from*** ```/02_Fig2_output_of_published_version``` ***if you want to skip first two*** ```.run``` ***steps above.***
+
+ 
 Once the intermediate results are generated, following plots can be made by corredponding bash scripts:
+ 
 #### Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a: Prediction of neural activity <span id="Fig4a-Fig5a-Fig6a-Fig7b-Fig8a-Fig9a-Fig10a"><span>
 ```bash
 $ ./_00_01_03-2-plot_Fig4a_5a_6a_7b_8a_9a_10a-Plot_prediction_rawDFF_traces.run
 ```
+Outputs:
+```/output/Fig4a5a6a7b8a9a10a-representativeDFF_traces/```
+ 
 #### Fig7c: Prediction of neural activity difference between left and right neurons from turning <span id="Fig7c"><span>
 ```bash
 $ ./_00_01_03-2-plot_Fig7c-Plot_dDFF_traces_fit_turning.run
 ```
+Outputs:
+```/output/Fig7a_7c-turning/```
+ 
 #### Fig10b_right, Fig10c: Prediction of neural activity from convoluted PE <span id="Fig10b_right-Fig10c"><span>
 ```bash
 $ ./_00_01_03-2-plot_Fig10b_right_10c-Plot_convPE.run
 ```
+Outputs:
+```/output/Fig10a_10c-PE_analysis/```
+ 
 #### FigS10: Behavior classifier confusion matrix <span id="FigS10"><span>
 ```bash
 $ ./_00_01_03-2-plot_FigS10-beh_jangle_confusionMat.run
 ```
+Outputs:
+```/output/FigS10-confusionMat_beh_classifier/```
+
 
 
 #### Fig2, FigS4 top: GLM of joint angle, leg, leg pair, behavior in predicitng neural activity <span id="Fig2-FigS4-top"><span>
@@ -228,7 +263,8 @@ Then, plot with:
 ```bash
 $ ./_00_01_03-3-plot_Fig2abcd_S4-Plot_glmmat_of_beh_leg_legPair_jangle_DFF.run
 ```
-
+Outputs:
+```/output/Fig2_S4-GLM_jangles_legs_beh_DFF/```
 
 #### Fig7a: Explained variance matrix of turning in predicitng neural activity <span id="Fig7a"><span>
 For visulazing turning r-squared matrix, further intermediate results have to be generated first for make the plot:
@@ -239,13 +275,21 @@ Then, plot with:
 ```bash
 $ ./_00_01_03-4-plot_Fig7a-Plot_turn_analysis_matrix.run
 ```
-
+Outputs:
+```/output/Fig7a_7c-turning/```
 
 ### Figures from dataset 03_: <span id="03"><span>
+
+<p align="left">
+  <img align="center" width="600" src="/images/Code_overflow_git_w_data_03.png">
+</p>
+
 #### FigS2: Joint angle and behavior covariance matrix <span id="FigS2"><span>
 ```bash
 $ ./_03-0-plot_FigS2-jangle_beh_covariance.run
 ```
+Outputs:
+```/output/FigS2-jangle_beh_covariance/```
 
 #### FigS3: Behavioral event-based average enural activity <span id="FigS3"><span>
 Intermediate results of averaging neural activity of each behavioral epoch need to be generated beforehand:
@@ -256,11 +300,15 @@ Then, the results can be visualized with following scripts:
 ```bash
 $ ./_03-2-plot_FigS3-Plot_DFFmat.run
 ```
+Outputs:
+```/output/FigS3-DFF_mat/```
 
 #### Fig4b, Fig5b, Fig6b, Fig7b, Fig8b, Fig9b: Behavioral event-based average enural activity <span id="Fig4b-Fig5b-Fig6b-Fig7b-Fig8b-Fig9b"><span>
 ```bash
 $ ./_03-2-plot_Fig4b_5b_6b_7d_8b_9b-Plot_BehEvt_avgDFF.run
 ```
+Outputs:
+```/output/Fig4b_5b_6b_7d_8b_9b-Beh_avgDFF/```
 
 #### Fig6c, Fig7e: Neural activity-corresponding ball rotation <span id="Fig6c-Fig7e"><span>
 Intermediate results of neural event detection need to be generated beforehand:
@@ -271,6 +319,8 @@ Then, the results can be visualized with following scripts:
 ```bash
 $ ./_03-3-plot_Fig6c_7e-Plot_DFFevt_analysis.run
 ```
+Outputs:
+```/output/Fig6c_7e-DFF_event_corresponding_ballRot/```
 
 #### FigS5: ANs from SS36112 likely specifically respond to puff stimulation rather than backward walking <span id="FigS5"><span>
 Intermediate results of puff and backward walking event detection need to be generated beforehand:
@@ -281,9 +331,17 @@ Then, the results can be visualized with following scripts:
 ```bash
 $ ./_03-4-plot-FigS5-SS36112_independentBW_vs_CO2puffBW_analysis.run
 ```
-
+Outputs:
+```/output/FigS5-CO2puff_BW_analysis_SS36112/```
+ 
 
 ### Figures from dataset 04_: <span id="04"><span>
+
+<p align="left">
+  <img align="center" width="220" src="/images/Code_overflow_git_w_data_04.png">
+</p>
+
+
 #### Fig3, FigS4: Large-scale anatomical quantification of adult Drosophila ascending neuron projections to the brain and ventral nerve cord <span id="Fig3_ FigS4"><span>
 
 Intermediate results of puff and backward walking event detection need to be generated beforehand:
@@ -294,24 +352,47 @@ Then, the results can be visualized with following scripts:
 ```bash
 $ ./_04-1-plot_Fig3_S4-Plot_singleAN_innervation_mat.run
 ```
-
+Outputs:
+```/output/Fig3_S4-single_AN_innervation_mat/```
+ 
 ### Figures from dataset 05_: <span id="05"><span>
+
+<p align="left">
+  <img align="center" width="200" src="/images/Code_overflow_git_w_data_05.png">
+</p>
+
 #### FigS7: ANs that are active off of the spherical treadmill <span id="FigS7"><span>
 ```bash
 $ ./_05-0-plot_FigS7-offBall_onBall_comparison.run
 ```
+Outputs:
+```/output/FigS7-offballActive_ANs/```
+
 ### Figures from dataset 06_: <span id="06"><span>
+
+<p align="left">
+  <img align="center" width="200" src="/images/Code_overflow_git_w_data_06.png">
+</p>
+
 ####  FigS6: ANs from SS36112 respond to both air and CO2 puff <span id="FigS6"><span>
 ```bash
 $ ./_06-0-plot_FigS6-Plot_air_vs_CO2puff.run
 ```
+Outputs:
+```/output/FigS6-air_vs_CO2_puff_comparison/```
 
 ### Figures from dataset 07_: <span id="07"><span>
-#### Fig10b_left: Summary of neural activity of each PE during PE train <span id="0Fig10b_left"><span>
+
+<p align="left">
+  <img align="center" width="255" src="/images/Code_overflow_git_w_data_07.png">
+</p>
+
+#### Fig10b_left: Summary of neural activity of each PE during PE train <span id="Fig10b_left"><span>
 ```bash
 $ ./_07-0-plot_Fig10b_left-DFF_per_PE.run
 ```
-
+Outputs:
+```/output/Fig10b_left-PE_dynamic/```
 
 
 
