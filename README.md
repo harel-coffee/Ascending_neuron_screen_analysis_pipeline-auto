@@ -219,7 +219,7 @@ Outputs:
 ```/output/Fig2_S4-GLM_jangles_legs_beh_DFF/```
  
 
-***Note: The intermediate resuls from behavior classifier and synchronized dataframe at this stage can be substituted with the those used in this work from*** ```/02_Fig2_output_of_published_version``` ***if you want to skip first two*** ```.run``` ***steps above.***
+***Note: The intermediate resuls from behavior classifier and synchronized dataframe at this stage can be substituted with the those used in this work from*** ```/02_Fig2_output_of_published_version``` ***if you want to skip*** ```_00_01_03-1_train_behavior_classifier.run.run``` and ```_00_01_03-2_predict_behavior_and_sync_beh_w_DFF.run```.
 
  
 Once the intermediate results are generated, following plots can be made by corredponding bash scripts:
@@ -259,6 +259,8 @@ For visulazing GLM matrix, further intermediate GLM results have to be generated
 ```bash
 $ ./_00_01_03-3_glm_of_beh_leg_legPair_jangle_DFF.run
 ```
+Or use the replace with GLM intermediate results in four ```/02_Fig2_output_of_published_version/overview_...``` if you want to plot the version used in the paper.
+ 
 Then, plot with:
 ```bash
 $ ./_00_01_03-3-plot_Fig2abcd_S4-Plot_glmmat_of_beh_leg_legPair_jangle_DFF.run
