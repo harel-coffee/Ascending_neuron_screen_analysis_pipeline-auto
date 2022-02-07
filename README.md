@@ -259,7 +259,7 @@ For visulazing GLM matrix, further intermediate GLM results have to be generated
 ```bash
 $ ./_00_01_03-3_glm_of_beh_leg_legPair_jangle_DFF.run
 ```
-Or use the replace with GLM intermediate results in four ```/02_Fig2_output_of_published_version/overview_...``` if you want to plot the version used in the paper.
+***Note: GLM intermediate results used in this paper can be found in four*** ```/02_Fig2_output_of_published_version/overview_...``` *** folders. Use them if you want to skip this GLM step***
  
 Then, plot with:
 ```bash
