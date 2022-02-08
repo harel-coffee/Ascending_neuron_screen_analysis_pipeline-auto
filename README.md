@@ -54,17 +54,17 @@ Now DeepLabcut should be installed and ready to use.
 ### 3. Install R and its associated packages
 We use R 3.6.1 for some of the anaylsis pipeline. You can find more information about R [here](https://stat.ethz.ch/pipermail/r-announce/2019/000643.html).
 
-Install R version 3.6.1 (2019-07-05) and the r-base-dev package to be able to compile R packages:
+Install R version 3.6.1 (2019-07-05) and the r-base-dev package to compile R packages:
 ```bash
 $ sudo apt-get update 
 $ sudo apt-get install r-base-dev=3.6.1
 ```
 
-Launch R to install packages by entering ```R``` in the terminal for installing the following packages:
+Launch R to install associated packages by entering ```R``` in the terminal:
 ```bash
 $ R
 ```
-Install R packages used in this paper in R:
+Then install the R packages for this manuscript:
 ```R
 > install.packages("ggpmisc")
 > install.packages("ggplot2")
@@ -76,14 +76,14 @@ Install R packages used in this paper in R:
 
 **Optional**
 
-Now, ```AN``` conda environment, DeepLabCut, and R are installed.
-If you want to to check python script seperately, remeber activate ```AN``` environment manually before running the each ```.py``` script by:
+Now the ```AN``` conda environment, DeepLabCut, and R should be installed.
+If you want to check Python scripts seperately, remember to activate the ```AN``` environment manually before running each ```.py``` script:
 ```bash
 $ source activate AN
 $ python name.py
 ```
 
-If you want to use DeepLabCut independently anytime, remember to activate DLC-CPU environment manually before running the script by:
+If you want to use DeepLabCut independently, remember to activate the DLC-CPU environment manually before running the script:
 ```bash
 $ source activate DLC-CPU
 $ python name.py
@@ -101,7 +101,7 @@ $ Rscript name.R
 
 
 ## Download the preprocessed experimental data
-Download the content from [Harvard dataverse](https://dataverse.harvard.edu/dataverse/AN) and make sure the location of data content inside each numbered folder are as below:
+Download the data from [Harvard dataverse](https://dataverse.harvard.edu/dataverse/AN) and make sure that the location of the data inside each numbered folder is organized as it is below:
 
 ```bash
 Ascending_neuron_screen_analysis_pipeline
@@ -141,7 +141,7 @@ Ascending_neuron_screen_analysis_pipeline
  
 ## Reproducing the figures
 
-**Note:** before running the following scripts, make sure python environment and R packages are all installed (see the installation guide)
+**Note:** Before running the following scripts, make sure that the Python environment and R packages are installed (see the Installation guide above).
 To start running the analysis pipeline, execute the following ```.run``` script from the folder ```Ascending_neuron_screen_analysis_pipeline/scripts_for_public/``` by:
 ```bash
 $ cd ../../Ascending_neuron_screen_analysis_pipeline/scripts_for_public/
