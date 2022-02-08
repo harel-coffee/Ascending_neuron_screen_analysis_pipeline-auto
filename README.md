@@ -88,8 +88,6 @@ If you want to use DeepLabCut independently anytime, remember to activate DLC-CP
 $ source activate DLC-CPU
 $ python name.py
 ```
-In our case, only 
-
 
 
 If ```source``` doesn't work, try using ```conda``` instead.
