@@ -142,15 +142,15 @@ Ascending_neuron_screen_analysis_pipeline
 ## Reproducing the figures
 
 **Note:** Before running the following scripts, make sure that the Python environment and R packages are installed (see the Installation guide above).
-To start running the analysis pipeline, execute the following ```.run``` script from the folder ```Ascending_neuron_screen_analysis_pipeline/scripts_for_public/``` by:
+To start running the analysis pipeline, execute the following ```.run``` script from the folder ```Ascending_neuron_screen_analysis_pipeline/scripts_for_public/```:
 ```bash
 $ cd ../../Ascending_neuron_screen_analysis_pipeline/scripts_for_public/
 ```
-Execute the script by typeing ```./``` before the script fileame, for example:
+Execute the script by typing ```./``` before the script fileame. For example:
 ```bash
 $ ./_00-0-plot_FigS1-exemplar_DLC_proboscisLabel_PEevt_detection.run
 ```
-The intermediate results have to be generated in the order as guided below to be able to generate the plots. Please check the diagram in each session which depicts the workflow from specified dataset to the ouput plots. 
+The intermediate results must be generated in the order shown below to generate plots. Please check the diagram in each session that depicts the workflow from a particular input dataset to specific ouput plots. 
 
 ### Content
 - [Figures from dataset 00_](#00):
@@ -158,30 +158,30 @@ The intermediate results have to be generated in the order as guided below to be
 
 - [Figures from dataset 00_, 01_ and 03_](#00-01-03):
   - [Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a: Prediction of neural activity](#Fig4a-Fig5a-Fig6a-Fig7b-Fig8a-Fig9a-Fig10a)
-  - [Fig7c: Prediction of neural activity difference between left and right neurons from turning](#Fig7c)
-  - [Fig10b_right, Fig10c: Prediction of neural activity from convoluted PE](#Fig10b_right-Fig10c)
+  - [Fig7c: Prediction of neural activity differences between left and right neurons due to turning](#Fig7c)
+  - [Fig10b_right, Fig10c: Prediction of neural activity from convolved PEs](#Fig10b_right-Fig10c)
   - [FigS10: Behavior classifier confusion matrix](#FigS10)
-  - [Fig2, FigS4 top: GLM of joint angle, leg, leg pair, behavior in predicitng neural activity](#Fig2-FigS4-top)
-  - [Fig7a: Explained variance matrix of turning in predicitng neural activity](#Fig7a)
+  - [Fig2, FigS4 top: GLM of joint angle, leg, leg pair, and behavior for predicitng neural activity](#Fig2-FigS4-top)
+  - [Fig7a: Explained variance matrix of turning for predicting neural activity](#Fig7a)
 
 - [Figures-from-dataset-03_](#03):
   - [FigS2: Joint angle and behavior covariance matrix](#figS2)
-  - [FigS3: Behavioral event-based average enural activity](#FigS3)
-  - [Fig4b, Fig5b, Fig6b, Fig7b, Fig8b, Fig9b: Behavioral event-based average enural activity](#Fig4b-Fig5b-Fig6b-Fig7b-Fig8b-Fig9b)
-  - [Fig6c, Fig7e: Neural activity-corresponding ball rotation](#Fig6c-Fig7e)
-  - [FigS5: ANs from SS36112 likely specifically respond to puff stimulation rather than backward walking](#FigS5)
+  - [FigS3: Behavioral event-triggered average neural activity](#FigS3)
+  - [Fig4b, Fig5b, Fig6b, Fig7b, Fig8b, Fig9b: Behavioral event-triggered average neural activity](#Fig4b-Fig5b-Fig6b-Fig7b-Fig8b-Fig9b)
+  - [Fig6c, Fig7e: Neural activity related ball rotations](#Fig6c-Fig7e)
+  - [FigS5: ANs from SS36112 respond to puff stimulation rather than backward walking](#FigS5)
 
 - [Figures-from-dataset-04_](#04):
-  - [Fig3, FigS4: Large-scale anatomical quantification of adult Drosophila ascending neuron projections to the brain and ventral nerve cord](#Fig3-FigS4)
+  - [Fig3, FigS4: Large-scale anatomical quantification of ascending neuron projections to the brain and ventral nerve cord](#Fig3-FigS4)
 
 - [Figures-from-dataset-05_](#05):
-  - [FigS7: ANs that are active off of the spherical treadmill](#FigS7)
+  - [FigS7: ANs that are active for movements off of the spherical treadmill](#FigS7)
 
 - [Figures-from-dataset-06_](#06):
-  - [FigS6: ANs from SS36112 respond to both air and CO2 puff](#FigS6)
+  - [FigS6: ANs from SS36112 respond to puffs of either air or CO2](#FigS6)
 
 - [Figures-from-dataset-07_](#07):
-  - [Fig10b_left: Summary of neural activity of each PE during PE train](#Fig10b_left)
+  - [Fig10b_left: Summary of neural activity for each PE during PE trains](#Fig10b_left)
 
 
 
@@ -202,13 +202,13 @@ Outputs:
 
 
 
-### Figures from dataset 00_, 01_, and 03_: <span id="00-01-03"><span>
+### Figures from datasets 00_, 01_, and 03_: <span id="00-01-03"><span>
 
 <p align="left">
   <img align="center" width="780" src="/images/Code_overflow_git_w_data_00_01_03.png">
 </p>
 
-Intermediate file have to be generated first:
+The intermediate file must first be generated:
 ```bash
 $ ./_00_01_03-1_train_behavior_classifier.run
 $ ./_00_01_03-2_predict_behavior_and_sync_beh_w_DFF.run
@@ -217,10 +217,10 @@ Outputs:
 ```/output/Fig2_S4-GLM_jangles_legs_beh_DFF/```
  
 
-***Note: The intermediate resuls from behavior classifier and synchronized dataframe at this stage can be substituted with the those used in this work from*** ```/02_Fig2_output_of_published_version``` ***if you want to skip*** ```_00_01_03-1_train_behavior_classifier.run.run``` and ```_00_01_03-2_predict_behavior_and_sync_beh_w_DFF.run```.
+***Note: The intermediate resuls from the behavior classifier and synchronized dataframes can now be substituted with the those used in this work from*** ```/02_Fig2_output_of_published_version``` ***if you want to skip*** ```_00_01_03-1_train_behavior_classifier.run.run``` and ```_00_01_03-2_predict_behavior_and_sync_beh_w_DFF.run```.
 
  
-Once the intermediate results are generated, following plots can be made by corredponding bash scripts:
+Once the intermediate results are generated, the following plots can be made using the following bash scripts:
  
 #### Fig4a, Fig5a, Fig6a, Fig7b, Fig8a, Fig9a, Fig10a: Prediction of neural activity <span id="Fig4a-Fig5a-Fig6a-Fig7b-Fig8a-Fig9a-Fig10a"><span>
 ```bash
@@ -229,14 +229,14 @@ $ ./_00_01_03-2-plot_Fig4a_5a_6a_7b_8a_9a_10a-Plot_prediction_rawDFF_traces.run
 Outputs:
 ```/output/Fig4a5a6a7b8a9a10a-representativeDFF_traces/```
  
-#### Fig7c: Prediction of neural activity difference between left and right neurons from turning <span id="Fig7c"><span>
+#### Fig7c: Prediction of neural activity differences between left and right ANs is associated with turning <span id="Fig7c"><span>
 ```bash
 $ ./_00_01_03-2-plot_Fig7c-Plot_dDFF_traces_fit_turning.run
 ```
 Outputs:
 ```/output/Fig7a_7c-turning/```
  
-#### Fig10b_right, Fig10c: Prediction of neural activity from convoluted PE <span id="Fig10b_right-Fig10c"><span>
+#### Fig10b_right, Fig10c: Prediction of neural activity from convolved PEs <span id="Fig10b_right-Fig10c"><span>
 ```bash
 $ ./_00_01_03-2-plot_Fig10b_right_10c-Plot_convPE.run
 ```
@@ -252,8 +252,8 @@ Outputs:
 
 
 
-#### Fig2, FigS4 top: GLM of joint angle, leg, leg pair, behavior in predicitng neural activity <span id="Fig2-FigS4-top"><span>
-For visulazing GLM matrix, further intermediate GLM results have to be generated first for make the plot:
+#### Fig2, FigS4 top: GLM of joint angle, leg, leg pair, and behavior for predicting neural activity <span id="Fig2-FigS4-top"><span>
+To plot and visualize the GLM matrix, the following intermediate GLM results must first be generated:
 ```bash
 $ ./_00_01_03-3_glm_of_beh_leg_legPair_jangle_DFF.run
 ```
@@ -267,11 +267,11 @@ Outputs:
 ```/output/Fig2_S4-GLM_jangles_legs_beh_DFF/```
 
 #### Fig7a: Explained variance matrix of turning in predicitng neural activity <span id="Fig7a"><span>
-For visulazing turning r-squared matrix, further intermediate results have to be generated first for make the plot:
+To visualize and plot the turning R-squared matrix, the following intermediate results must first be generated:
 ```bash
 $ ./_00_01_03-4_turn_mat_analysis.run
 ```
-Then, plot with:
+Then, plot using:
 ```bash
 $ ./_00_01_03-4-plot_Fig7a-Plot_turn_analysis_matrix.run
 ```
@@ -291,43 +291,43 @@ $ ./_03-0-plot_FigS2-jangle_beh_covariance.run
 Outputs:
 ```/output/FigS2-jangle_beh_covariance/```
 
-#### FigS3: Behavioral event-based average enural activity <span id="FigS3"><span>
-Intermediate results of averaging neural activity of each behavioral epoch need to be generated beforehand:
+#### FigS3: Behavioral event-triggered average neural activity <span id="FigS3"><span>
+First the intermediate results of averaging neural activity for each behavioral epoch need to be generated:
 ```bash
 $ ./_03-1_prep_DFF_beh_mat.run
 ```
-Then, the results can be visualized with following scripts:
+Then, the results can be visualized using the following scripts:
 ```bash
 $ ./_03-2-plot_FigS3-Plot_DFFmat.run
 ```
 Outputs:
 ```/output/FigS3-DFF_mat/```
 
-#### Fig4b, Fig5b, Fig6b, Fig7b, Fig8b, Fig9b: Behavioral event-based average enural activity <span id="Fig4b-Fig5b-Fig6b-Fig7b-Fig8b-Fig9b"><span>
+#### Fig4b, Fig5b, Fig6b, Fig7b, Fig8b, Fig9b: Behavioral event-triggered average neural activity <span id="Fig4b-Fig5b-Fig6b-Fig7b-Fig8b-Fig9b"><span>
 ```bash
 $ ./_03-2-plot_Fig4b_5b_6b_7d_8b_9b-Plot_BehEvt_avgDFF.run
 ```
 Outputs:
 ```/output/Fig4b_5b_6b_7d_8b_9b-Beh_avgDFF/```
 
-#### Fig6c, Fig7e: Neural activity-corresponding ball rotation <span id="Fig6c-Fig7e"><span>
-Intermediate results of neural event detection need to be generated beforehand:
+#### Fig6c, Fig7e: Neural activity-associated ball rotations <span id="Fig6c-Fig7e"><span>
+Intermediate results of neural event detection first need to be generated:
 ```bash
 $ ./_03-3_prep_DFFevt_analysis.run
 ```
-Then, the results can be visualized with following scripts:
+Then, the results can be visualized using the following scripts:
 ```bash
 $ ./_03-3-plot_Fig6c_7e-Plot_DFFevt_analysis.run
 ```
 Outputs:
 ```/output/Fig6c_7e-DFF_event_corresponding_ballRot/```
 
-#### FigS5: ANs from SS36112 likely specifically respond to puff stimulation rather than backward walking <span id="FigS5"><span>
-Intermediate results of puff and backward walking event detection need to be generated beforehand:
+#### FigS5: ANs from SS36112 respond to puff stimulation rather than backward walking <span id="FigS5"><span>
+Intermediate results of puff and backward walking event detection first need to be generated:
 ```bash
 $ ./_03-4_prep_SS36112_independentBW_vs_CO2puffBW_analysis.run
 ```
-Then, the results can be visualized with following scripts:
+Then, the results can be visualized using the following scripts:
 ```bash
 $ ./_03-4-plot-FigS5-SS36112_independentBW_vs_CO2puffBW_analysis.run
 ```
@@ -342,13 +342,13 @@ Outputs:
 </p>
 
 
-#### Fig3, FigS4: Large-scale anatomical quantification of adult Drosophila ascending neuron projections to the brain and ventral nerve cord <span id="Fig3_ FigS4"><span>
+#### Fig3, FigS4: Large-scale anatomical quantification of ascending neuron projections to the brain and ventral nerve cord <span id="Fig3_ FigS4"><span>
 
-Intermediate results of puff and backward walking event detection need to be generated beforehand:
+Intermediate results of puff and backward walking event detection first need to be generated:
 ```bash
 $ ./_04-1_prep_singleAN_innervation_mat.run
 ```
-Then, the results can be visualized with following scripts:
+Then, the results can be visualized using the following scripts:
 ```bash
 $ ./_04-1-plot_Fig3_S4-Plot_singleAN_innervation_mat.run
 ```
@@ -361,7 +361,7 @@ Outputs:
   <img align="center" width="200" src="/images/Code_overflow_git_w_data_05.png">
 </p>
 
-#### FigS7: ANs that are active off of the spherical treadmill <span id="FigS7"><span>
+#### FigS7: ANs that are active during movements off of the spherical treadmill <span id="FigS7"><span>
 ```bash
 $ ./_05-0-plot_FigS7-offBall_onBall_comparison.run
 ```
@@ -374,7 +374,7 @@ Outputs:
   <img align="center" width="200" src="/images/Code_overflow_git_w_data_06.png">
 </p>
 
-####  FigS6: ANs from SS36112 respond to both air and CO2 puff <span id="FigS6"><span>
+####  FigS6: ANs from SS36112 respond to puffs of either air or CO2 <span id="FigS6"><span>
 ```bash
 $ ./_06-0-plot_FigS6-Plot_air_vs_CO2puff.run
 ```
@@ -387,7 +387,7 @@ Outputs:
   <img align="center" width="255" src="/images/Code_overflow_git_w_data_07.png">
 </p>
 
-#### Fig10b_left: Summary of neural activity of each PE during PE train <span id="Fig10b_left"><span>
+#### Fig10b_left: Summary of neural activity during each PE of a PE train <span id="Fig10b_left"><span>
 ```bash
 $ ./_07-0-plot_Fig10b_left-DFF_per_PE.run
 ```
