@@ -40,19 +40,19 @@ Download and install DeepLabCut:
 ```bash
 $ git clone git+https://github.com/DeepLabCut/DeepLabCut.git@413ae5e2c410fb9da3da26c333b6a9b87ab6c38f#egg=deeplabcut
 ```
-Change direcotry to ```/conda-environments``` where the ```DLC-CPU.yaml``` locates:
+Change the directory to ```/conda-environments``` where the ```DLC-CPU.yaml``` is located:
 ```bash
 $ cd ../../DeepLabCut/conda-environments
 ```
-Create DLC-CPU environment and install CPU version of DeepLabCut:
+Create the DLC-CPU environment and install the CPU version of DeepLabCut:
 ```bash
 $ conda env create -f DLC-CPU.yaml
 ```
-And DeepLabcut is intalled and ready to use.
+Now DeepLabcut should be installed and ready to use.
 
 
-### 3. Install R and the packages
-We use R 3.6.1 to develop some part of anaylsis pipeline, you can find more information about R [here](https://stat.ethz.ch/pipermail/r-announce/2019/000643.html).
+### 3. Install R and its associated packages
+We use R 3.6.1 for some of the anaylsis pipeline. You can find more information about R [here](https://stat.ethz.ch/pipermail/r-announce/2019/000643.html).
 
 Install R version 3.6.1 (2019-07-05) and the r-base-dev package to be able to compile R packages:
 ```bash
