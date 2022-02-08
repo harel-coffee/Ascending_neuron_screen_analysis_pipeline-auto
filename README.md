@@ -1,10 +1,10 @@
-# Ascending_neuron_screen_analysis_pipeline
+# Ascending neuron screen analysis pipeline
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde)
 
-This repository is for generating the figures published in the paper-- [**Ascending neurons convey high-level behavioral-state signals to multimodal sensory and action selection centers in the Drosophila brain**]().
+This repository is used to generate the figures published in the paper-- [**Ascending neurons convey behavioral state to integrative sensory and action selection centers in the brain**]().
 
-This pipeline is made and run in Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-76-generic x86_64). 
+This pipeline was developed and run on Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-76-generic x86_64). 
  
 ## Content
 - [Installation](#installation)
@@ -13,30 +13,30 @@ This pipeline is made and run in Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-76-generic
  
 
 ## Installation
-To be able to run all the script, python and R have to be installed.
+To be able to run all the script, Python and R have to be installed.
 
-To be able to intall the environment with specific version of python packages, please install Anaconda first if you don't have. 
+To intall the environment with specific versions of requried Python packages, please install Anaconda first if you haven't already. 
 
 Install Anaconda --> https://www.anaconda.com/
-### 1. Install python environment ```AN``` to be able to run ```.py``` scripts by following the guidance below:
+### 1. Install the Python environment ```AN``` to run ```.py``` scripts by following the instructions below:
 Clone repository:
 ```bash 
 $ cd ../to/where/you/want/
 $ git clone https://github.com/NeLy-EPFL/Ascending_neuron_screen_analysis_pipeline.git
 ```
-Change directory to your ```../Ascending_neuron_screen_analysis_pipeline``` folder where ```AN_env_public.yml``` locates:
+Change the directory to your ```../Ascending_neuron_screen_analysis_pipeline``` folder where ```AN_env_public.yml``` is located:
 ```bash
 $ cd ../../Ascending_neuron_screen_analysis_pipeline
 ```
-Install ```AN``` python environment with packages in ```AN_env_public.yml```:
+Install the ```AN``` Python environment with packages in ```AN_env_public.yml```:
 ```bash
 $ conda env create -f AN_env_public.yml
 ```
  
 
 
-### 2. Install DeepLabCut of CPU version used in this paper in its own environment (make sure leave ```AN``` environment by ```conda deactivate``` before the following steps)
-Downlaod and install DeepLabCut:
+### 2. Install the CPU version of DeepLabCut used in this manuscript in its own environment (make sure to leave the ```AN``` environment using ```conda deactivate``` before performing the following steps)
+Download and install DeepLabCut:
 ```bash
 $ git clone git+https://github.com/DeepLabCut/DeepLabCut.git@413ae5e2c410fb9da3da26c333b6a9b87ab6c38f#egg=deeplabcut
 ```
