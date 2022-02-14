@@ -317,10 +317,10 @@ $ ./_03-3_prep_DFFevt_analysis.run
 ```
 Then, the results can be visualized using the following scripts:
 ```bash
-$ ./_03-3-plot_Fig6c_7e-Plot_DFFevt_analysis.run
+$ ./_03-3-plot_Fig6c_7d-Plot_DFFevt_analysis.run
 ```
 Outputs:
-```/output/Fig6c_7e-DFF_event_corresponding_ballRot/```
+```/output/Fig6c_7d-DFF_event_corresponding_ballRot/```
 
 #### FigS5: ANs from SS36112 respond to puff stimulation rather than backward walking <span id="FigS5"><span>
 Intermediate results of puff and backward walking event detection first need to be generated:
