@@ -281,7 +281,7 @@ Outputs:
 ### Figures from dataset 03_: <span id="03"><span>
 
 <p align="left">
-  <img align="center" width="600" src="/images/Code_overflow_git_w_data_03.png">
+  <img align="center" width="1200" src="/images/Code_overflow_git_w_data_03.png">
 </p>
 
 #### FigS2: Joint angle and behavior covariance matrix <span id="FigS2"><span>
