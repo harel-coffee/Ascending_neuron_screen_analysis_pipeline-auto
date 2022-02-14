@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde)
 
-This repository is used to generate the figures published in the paper-- [**Ascending neurons convey behavioral state to integrative sensory and action selection centers in the brain**]().
+This repository is used to generate the figures published in the bioRxiv paper-- [**Ascending neurons convey behavioral state to integrative sensory and action selection centers in the brain**](). Found here https://www.biorxiv.org/content/10.1101/2022.02.09.479566v1
 
 This pipeline was developed and run on Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-76-generic x86_64). 
  
