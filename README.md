@@ -308,9 +308,9 @@ Outputs:
 $ ./_03-2-plot_Fig4b_5b_6b_7d_8b_9b-Plot_BehEvt_avgDFF.run
 ```
 Outputs:
-```/output/Fig4b_5b_6b_7d_8b_9b-Beh_avgDFF/```
+```/output/Fig4b_5b_6b_7e_8b_9b-Beh_avgDFF/```
 
-#### Fig6c, Fig7e: Neural activity-associated ball rotations <span id="Fig6c-Fig7e"><span>
+#### Fig6c, Fig7d: Neural activity-associated ball rotations <span id="Fig6c-Fig7e"><span>
 Intermediate results of neural event detection first need to be generated:
 ```bash
 $ ./_03-3_prep_DFFevt_analysis.run
