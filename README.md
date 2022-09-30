@@ -35,7 +35,7 @@ $ conda env create -f AN_env_public.yml
  
 
 
-### 2. Install the CPU version of DeepLabCut used in this manuscript in its own environment (make sure to leave the ```AN``` environment using ```conda deactivate``` before performing the following steps)
+### 2. Install the CPU version of DeepLabCut (v.2.1.8.1) used in this manuscript in its own environment (make sure to leave the ```AN``` environment using ```conda deactivate``` before performing the following steps)
 Download and install DeepLabCut:
 ```bash
 $ git clone git+https://github.com/DeepLabCut/DeepLabCut.git@413ae5e2c410fb9da3da26c333b6a9b87ab6c38f#egg=deeplabcut
