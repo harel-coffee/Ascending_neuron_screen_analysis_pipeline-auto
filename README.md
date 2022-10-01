@@ -36,13 +36,37 @@ $ conda env create -f AN_env_public.yml
 
 
 ### 2. Install the CPU version of DeepLabCut (v.2.1.8.1) used in this manuscript in its own environment (make sure to leave the ```AN``` environment using ```conda deactivate``` before performing the following steps)
-Download and install DeepLabCut:
+#### Download and install DeepLabCut:
 ```bash
-$ git clone git+https://github.com/DeepLabCut/DeepLabCut.git@413ae5e2c410fb9da3da26c333b6a9b87ab6c38f#egg=deeplabcut
+$ git clone https://github.com/DeepLabCut/DeepLabCut.git
 ```
-Change the directory to ```/conda-environments``` where the ```DLC-CPU.yaml``` is located:
+
+#### Change version to v2.1.8.1:
+1. Go to the folder of your clone DeepLabCut:
+
+```bash 
+$ cd DeepLabCut/
+```
+
+2. Change to the commit number of v2.1.8.1
+
+```bash 
+$ git checkout f2f69166bb11e37fa9784273191468362f9c699d
+```
+
+3.You can check the update record:
+
+```bash 
+$ git log
+```
+
+4. Finally, you can check your clone DeepLabCut folder which should have the contents in the github reository of your desired version.
+
+
+
+#### Change the directory to ```DeepLabCut/conda-environments``` where the ```DLC-CPU.yaml``` is located:
 ```bash
-$ cd ../../DeepLabCut/conda-environments
+$ cd /DeepLabCut/conda-environments
 ```
 Create the DLC-CPU environment and install the CPU version of DeepLabCut:
 ```bash
