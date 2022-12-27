@@ -281,6 +281,7 @@ To plot and visualize the GLM matrix, the following intermediate GLM results mus
 ```bash
 $ ./_00_01_03-3_glm_of_beh_leg_legPair_jangle_DFF.run
 ```
+Overall significance of our models using an F-statistic to reject the null hypothesis that the model does not perform better than an intercept-only model.
 ***Note: GLM intermediate results used in this paper can be found in four*** ```/02_Fig2_output_of_published_version/overview_...``` ***folders. Use them if you want to skip this GLM step***
  
 Then, plot with:
@@ -295,6 +296,7 @@ To visualize and plot the turning R-squared matrix, the following intermediate r
 ```bash
 $ ./_00_01_03-4_turn_mat_analysis.run
 ```
+Overall significance of our models using an F-statistic to reject the null hypothesis that the model does not perform better than an intercept-only model.
 Then, plot using:
 ```bash
 $ ./_00_01_03-4-plot_Fig7a-Plot_turn_analysis_matrix.run
@@ -386,6 +388,8 @@ Outputs:
 </p>
 
 #### FigS7: ANs that are active during movements off of the spherical treadmill <span id="FigS7"><span>
+To avoid the false-positive result of statistical comparison due to over-large population, the data were bootstrapped into 10 groups with sample size 30 and the majority of Mann-Whitney U-test results determines whether to reject null hypothesis. 
+
 ```bash
 $ ./_05-0-plot_FigS7-offBall_onBall_comparison.run
 ```
@@ -399,6 +403,8 @@ Outputs:
 </p>
 
 ####  FigS6: ANs from SS36112 respond to puffs of either air or CO2 <span id="FigS6"><span>
+To avoid the false-positive result of statistical comparison due to over-large population, the data were bootstrapped into 10 groups with sample size 30 and the majority of Mann-Whitney U-test results determines whether to reject null hypothesis. 
+
 ```bash
 $ ./_06-0-plot_FigS6-Plot_air_vs_CO2puff.run
 ```
