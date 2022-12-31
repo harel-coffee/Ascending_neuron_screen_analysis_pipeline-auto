@@ -26,13 +26,6 @@ import utils.math_utils as math_utils
 
 
 
-# x=[0,1,0,0,0,0,0,2,0]
-# y=[0,2,0,0,0,0,0,1,0]
-# slope_ss, intercept_ss, Corr_coef_ss, p_value_ss, _ = math_utils.linear_regress(x,y)
-# print('slope_ss, intercept_ss, Corr_coef_ss, p_value_ss', slope_ss, intercept_ss, Corr_coef_ss, p_value_ss)
-
-# sys.exit(0)
-
 
 
 
@@ -468,7 +461,7 @@ for exp_lists_per_fly in experiments_group_per_fly:
 			for i, GC_trace in enumerate(GC_set):
 				if len(gapFree_GC_fly)!=len(GC_set):
 					gapFree_GC_fly.append([])
-				GC_trace=math_utils.smooth_data(GC_trace, windowlen=int(GC_raw_datafreq*0.9)) 
+				GC_trace=math_utils.smooth_data(GC_trace, windowlen=int(GC_raw_datafreq*0.7)) 
 				# GC_trace=math_utils.norm_to_max(GC_trace, percentile_th_to_norm=100)
 				gapFree_GC_fly[i].extend(GC_trace)
 
