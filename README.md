@@ -380,7 +380,21 @@ $ ./_04-1-plot_Fig3_S4-Plot_singleAN_innervation_mat.run
 ```
 Outputs:
 ```/output/Fig3_S4-single_AN_innervation_mat/```
- 
+
+
+#### FigS8: The bilaterality of an ascending nuron pair's VNC oatterning correlated with the degree of synchronous activity.
+```python
+$ python FigS8-morphoLateralization-activitySymmetry.py
+```
+
+Outputs:
+```/output/FigS8-morphoSymmetry-activitySymmetry/```
+<p align="left">
+  <img align="center" width="400" src="/images/morphoBilatrl-GCsymmCorr.png">
+</p>
+
+
+
 ### Figures from dataset 05_: <span id="05"><span>
 
 <p align="left">
