@@ -241,7 +241,7 @@ Outputs:
 ```/output/Fig2_S4-GLM_jangles_legs_beh_DFF/```
  
 
-***Note: The intermediate resuls from the behavior classifier and synchronized dataframes can now be substituted with the those used in this work from*** ```/02_Fig2_output_of_published_version``` ***if you want to skip*** ```_00_01_03-1_train_behavior_classifier.run.run``` and ```_00_01_03-2_predict_behavior_and_sync_beh_w_DFF.run```.
+***Note: The intermediate resuls from the behavior classifier and synchronized dataframes can now be substituted with the those used in this work from*** ```/02_Fig2_output_of_published_version``` ***if you want to skip*** ```_00_01_03-1_train_behavior_classifier.run``` and ```_00_01_03-2_predict_behavior_and_sync_beh_w_DFF.run```.
 
  
 Once the intermediate results are generated, the following plots can be made using the following bash scripts:
@@ -266,7 +266,22 @@ $ ./_00_01_03-2-plot_Fig10b_right_10c-Plot_convPE.run
 ```
 Outputs:
 ```/output/Fig10a_10c-PE_analysis/```
- 
+
+
+#### ED Fig4 and ED Fig5: linear model of resting period among ANs and SNs<span id="FigS10"><span>
+This figure number is corresponding to the version of Nature Neuroscience.
+```python
+$ FigED4_ED5-overview_matrices_jangle_Rest.R
+```
+```python
+$ FigED4_ED5-Plot_GLM_rest.py
+```
+Outputs:
+```/output/FigED4_ED5-overview_matrices_jangle_Rest/```
+
+
+
+
 #### FigS10: Behavior classifier confusion matrix <span id="FigS10"><span>
 ```bash
 $ ./_00_01_03-2-plot_FigS10-beh_jangle_confusionMat.run
@@ -392,8 +407,7 @@ Outputs:
 <p align="left">
   <img align="center" width="400" src="/images/morphoBilatrl-GCsymmCorr.png">
 </p>
-
-
+Overall significance of the coefficient in the linear model is assessed by a two-sided Wald test with t-distribution testing if rejecting the null hypothesis of the coefficient of linear model to be 0.
 
 ### Figures from dataset 05_: <span id="05"><span>
 
