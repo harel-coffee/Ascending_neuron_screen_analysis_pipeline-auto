@@ -1,2 +1,2 @@
-Please download the content of "02_Fig2_output_of_published_version" into this folder via:
-
+Please download the content of "02_Fig2_output_of_published_version" into this folder. 
+The temporary SN file from uav and R73D10 have to be moved to /glm_input_files after the whole 02_Fig2_output_of_published_version data are downloaded and decompressed for ED Fig4 and 5. 
