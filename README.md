@@ -278,7 +278,12 @@ $ FigED4_ED5-Plot_GLM_rest.py
 ```
 Outputs:
 ```/output/FigED4_ED5-overview_matrices_jangle_Rest/```
-
+<p align="left">
+  <img align="center" width="1000" src="/output/FigED4_ED5-overview_matrices_jangle_Rest/plots/glm_jangle_SN/unqiue_explained_variance.png">
+</p>
+<p align="left">
+  <img align="center" width="1000" src="/output/FigED4_ED5-overview_matrices_jangle_Rest/plots/glm_jangle_SN_rest/unqiue_explained_variance.png">
+</p>
 
 
 
