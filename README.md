@@ -402,7 +402,7 @@ Outputs:
 ```/output/Fig3_S4-single_AN_innervation_mat/```
 
 
-#### FigS8: The bilaterality of an ascending nuron pair's VNC patterning correlated with the degree of synchronous activity.
+#### FigS8: The bilaterality of an ascending neuron pair's VNC patterning correlated with the degree of synchronous activity.
 ```python
 $ python FigS8-morphoLateralization-activitySymmetry.py
 ```
